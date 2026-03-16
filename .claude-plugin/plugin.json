@@ -1,0 +1,18 @@
+{
+  "name": "autocode",
+  "description": "Auto-detect what you're building, fixing, or reviewing — then compress every instruction to save 40-65% tokens. No commands to learn. Just describe your task in plain language.",
+  "version": "1.0.0",
+  "author": {
+    "name": "I-Lang Research",
+    "email": "info@ilang.ai"
+  },
+  "license": "MIT",
+  "keywords": [
+    "token-saving",
+    "prompt-compression",
+    "productivity",
+    "coding",
+    "automation",
+    "workflow"
+  ]
+}
