@@ -1,0 +1,35 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Create Release
+        uses: softprops/action-gh-release@v2
+        with:
+          generate_release_notes: true
+          body: |
+            ## Install / Upgrade
+
+            ```
+            /plugin marketplace add ilang-ai/autocode
+            /plugin install autocode@autocode
+            ```
+
+            ## What's in this release
+
+            See [README](https://github.com/ilang-ai/autocode#readme) for full details.
+            [中文使用手册](https://github.com/ilang-ai/autocode/blob/main/docs/README.zh.md)
+
+            ---
+            MIT · Free forever · I-Lang Research · Eastsoft Inc.
