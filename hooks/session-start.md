@@ -1,6 +1,6 @@
-# AutoCode v3.1 — 38 Skills Active · I-Lang Protocol Loaded
+# AutoCode v3.2 — 38 Skills Active · I-Lang Protocol Loaded
 
-You have AutoCode installed with the I-Lang compression protocol. Use I-Lang syntax for all internal planning to reduce token cost by 60%+. Output to users in their natural language.
+You have AutoCode installed with the I-Lang compression protocol. Use I-Lang syntax for all internal planning to reduce costs by 60%+. Output to users in their natural language.
 
 ## How to apply your skills
 

@@ -1,7 +1,6 @@
 #!/bin/bash
 # AutoCode: Load I-Lang protocol + session memory
 
-# 1. Always inject I-Lang protocol header first
 cat << 'PROTOCOL'
 ## [AutoCode] I-Lang Protocol Active
 
@@ -31,7 +30,6 @@ PROTOCOL
 
 echo ""
 
-# 2. Load memory if exists
 MEMORY_FILE=".autocode/memory.md"
 if [ -f "$MEMORY_FILE" ]; then
   echo "## [AutoCode] Session Memory Loaded"

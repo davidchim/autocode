@@ -1,0 +1,22 @@
+{
+  "name": "autocode-marketplace",
+  "owner": {
+    "name": "I-Lang Research, Eastsoft Inc.",
+    "email": "info@ilang.ai"
+  },
+  "metadata": {
+    "description": "AutoCode: 38 professional skills for Claude Code. Anyone can build software.",
+    "homepage": "https://github.com/ilang-ai/autocode"
+  },
+  "plugins": [
+    {
+      "name": "autocode",
+      "source": ".",
+      "version": "3.2.0",
+      "description": "You say it, AutoCode builds it. 38 professional skills, persistent memory, 60%+ dev cost savings. No coding required. Zero dependencies. Free forever.",
+      "category": "productivity",
+      "keywords": ["ai-coding", "auto-coding", "memory", "compression", "i-lang"],
+      "strict": true
+    }
+  ]
+}
