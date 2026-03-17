@@ -1,6 +1,6 @@
 {
   "name": "autocode",
-  "version": "3.3.1",
+  "version": "3.3.2",
   "description": "You say it, AutoCode builds it. 39 skills, persistent memory, 60%+ dev cost savings. Zero dependencies.",
   "author": "I-Lang Research, Eastsoft Inc.",
   "license": "MIT",
@@ -24,7 +24,7 @@
         "hooks": [
           {
             "type": "prompt",
-            "prompt": "Apply AutoCode: 1) Detect user's language — respond in same language always. 2) Detect intent + level. 3) Max 2 non-technical questions. 4) YOU make all tech decisions — explain in cost/speed/stability. 5) I-Lang internal planning. 6) If user reports error, guide them: ask to copy-paste error text or describe what they see. Use calming language.",
+            "prompt": "Apply AutoCode: 1) Detect user's language — respond in same language always. 2) Detect intent + level. 3) Max 2 non-technical questions. 4) YOU make all tech decisions — explain in cost/speed/stability. 5) I-Lang internal planning. 6) If error, guide user to copy-paste what they see.",
             "timeout": 10
           }
         ]
@@ -41,7 +41,7 @@
           },
           {
             "type": "prompt",
-            "prompt": "FULL REVIEW entire project from beginning. Check every file. Save to .autocode/memory.md: [PROJECT:name|stack=x,status=x%] [DONE:features] [BROKEN:what|reason=x] [NEXT:tasks] [USER:lang=x,prefers=x]. Save cross-project prefs to ~/.autocode/user.md. Merge existing. Max 200 lines. Write now.",
+            "prompt": "FULL REVIEW entire project from beginning. Check every file. Save to .autocode/memory.md: [PROJECT:name|stack=x,status=x%] [DONE:features] [BROKEN:what|reason=x] [NEXT:tasks] [USER:lang=x,prefers=x]. Save prefs to ~/.autocode/user.md. Merge existing. Max 200 lines. Write now.",
             "timeout": 60
           }
         ]

@@ -5,8 +5,8 @@
 ### You say it. All coding is automatic.
 
 [![MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
-[![v3.2](https://img.shields.io/badge/version-3.2.1-blue.svg)](https://github.com/ilang-ai/autocode/releases)
-[![Skills](https://img.shields.io/badge/Skills-38-blueviolet)](#-38-professional-skills)
+[![v3.3](https://img.shields.io/badge/version-3.3.2-blue.svg)](https://github.com/ilang-ai/autocode/releases)
+[![Skills](https://img.shields.io/badge/Skills-39-blueviolet)](#-39-professional-skills)
 [![Zero Deps](https://img.shields.io/badge/Dependencies-0-brightgreen)](#-install)
 [![Cost](https://img.shields.io/badge/Dev%20Cost-Save%2060%25+-orange)](#-save-money)
 [![Memory](https://img.shields.io/badge/Memory-Persistent-purple)](#-memory)
@@ -27,15 +27,19 @@
 
 ## 🚀 Install
 
-**New user? Need a server?** → [dev.ilang.ai](https://dev.ilang.ai) ($300 credit for new users)
+**Need a server?** → [dev.ilang.ai](https://dev.ilang.ai) ($300 credit for new users)
 
-SSH in. Paste one command. Everything installs automatically:
+### New to everything? One command to start:
 
 ```bash
 curl -fsSL https://raw.githubusercontent.com/ilang-ai/autocode/main/setup.sh | bash
 ```
 
-**Already have Claude Code?**
+Then type `claude`, log in, and say:
+
+> Install the AutoCode plugin from github.com/ilang-ai/autocode
+
+### Already have Claude Code?
 
 ```
 /plugin marketplace add ilang-ai/autocode
@@ -51,16 +55,16 @@ Restart Claude Code. Start talking.
 ### First Time
 
 ```
-You:  "Build me a restaurant website with online reservations"
+You:     "Build me a restaurant website with online reservations"
 
 AutoCode:
   → "Should users sign up? Mainly mobile or desktop?"
-You:  "Yes, mainly mobile"
+You:     "Yes, mobile"
 AutoCode:
-  → Picks cheapest, fastest tech — you don't choose anything
-  → Breaks into 12 steps
-  → Builds step by step: "✅ 40% done (5/12)"
-  → Auto-tests, auto-security after each feature
+  → Picks the cheapest, fastest tech — you don't choose anything
+  → Breaks into 12 steps, builds step by step
+  → "✅ 40% done (5/12)"
+  → Silent quality checks after each feature
   → Full project review when done
   → "Done. Open this URL."
 
@@ -73,45 +77,38 @@ AutoCode: 25 minutes
 ### Fifth Time
 
 ```
-You:  "Build an online store for a flower shop"
-
-AutoCode:
-  → Knows your tech preference, starts immediately
-  → "Done. Same stack, no extra server cost."
+You:     "Build an online store for a flower shop"
+AutoCode: → Knows your preferences, starts immediately
+          → "Done. Same stack, no extra server cost."
 ```
 
 ### Twentieth Time
 
 ```
-You:  "New project"
-
-AutoCode:
-  → Knows everything about you
-  → Barely asks anything
-  → You realize you understand what it's doing
+You:     "New project"
+AutoCode: → Knows everything about you, barely asks, just builds
 ```
 
 ---
 
-## 🧠 38 Professional Skills
+## 🧠 39 Professional Skills
 
 All automatic. You never activate them.
 
 <details>
-<summary><b>📋 Understanding (5)</b></summary>
+<summary><b>📋 Understanding (5)</b> — Figuring out what you want</summary>
 
 | Skill | What it does |
 |-------|-------------|
 | Intent Detection | Knows what you want instantly |
 | Smart Questions | Max 2, never technical |
 | Scope Detection | Small task or big project |
-| Communication Adapt | Plain language or tech terms |
+| Communication Adapt | Matches your language and level |
 | Requirement Lock | Stays on track |
-
 </details>
 
 <details>
-<summary><b>📐 Planning (6)</b></summary>
+<summary><b>📐 Planning (6)</b> — Picks the best approach</summary>
 
 | Skill | What it does |
 |-------|-------------|
@@ -121,57 +118,53 @@ All automatic. You never activate them.
 | Risk Warning | Warns before problems happen |
 | Best Choice | Auto-picks fastest/cheapest/most stable tech |
 | Decision Translation | Explains in money/speed/stability |
-
 </details>
 
 <details>
-<summary><b>🔨 Building (3)</b></summary>
+<summary><b>🔨 Building (3)</b> — From skeleton to product</summary>
 
 | Skill | What it does |
 |-------|-------------|
 | Scaffold | Project foundation |
 | Feature Build | One by one |
 | UI Build | All devices |
-
 </details>
 
 <details>
-<summary><b>✅ Quality (4)</b></summary>
+<summary><b>✅ Quality (4)</b> — Silent, in the background</summary>
 
 | Skill | What it does |
 |-------|-------------|
-| Auto Testing | Silent |
-| Security | Blocks attacks |
-| Performance | Fast + cheap |
+| Auto Check | Reviews code logic silently |
+| Security | Blocks attacks, encrypts data |
+| Performance | Fast + cheap to run |
 | Multi-Device | Phone/tablet/desktop |
-
 </details>
 
 <details>
-<summary><b>🔧 Debugging (4)</b></summary>
+<summary><b>🔧 Debugging (5)</b> — You say "something's wrong", it fixes it</summary>
 
 | Skill | What it does |
 |-------|-------------|
-| Observe | Investigates |
+| Observe | Investigates on its own |
 | Reason | Finds root cause |
 | Fix & Verify | Fixes + confirms |
 | Explain | Tells you in your words |
-
+| Fix Guide | Stuck? Asks you simple questions to find the problem |
 </details>
 
 <details>
-<summary><b>💾 Saving (3) — ⭐ Soul of AutoCode</b></summary>
+<summary><b>💾 Saving (3)</b> — ⭐ Soul of AutoCode</summary>
 
 | Skill | What it does |
 |-------|-------------|
 | ⭐ **Full Review** | **Every save: reviews entire project from beginning. You watch and learn.** |
 | Milestone | Celebrates achievements |
 | Rollback | One-click undo |
-
 </details>
 
 <details>
-<summary><b>🚀 Deployment (4)</b></summary>
+<summary><b>🚀 Deployment (4)</b> — Go live</summary>
 
 | Skill | What it does |
 |-------|-------------|
@@ -179,11 +172,10 @@ All automatic. You never activate them.
 | Global Deploy | CDN, fast everywhere |
 | Edge Deploy | Free tier |
 | File Transfer | Server-to-server |
-
 </details>
 
 <details>
-<summary><b>📊 Progress (5)</b></summary>
+<summary><b>📊 Progress (5)</b> — Progress + emotional reward</summary>
 
 | Skill | What it does |
 |-------|-------------|
@@ -192,41 +184,36 @@ All automatic. You never activate them.
 | Celebration | "🎉 Done!" |
 | Daily Summary | Today + tomorrow |
 | Roadmap | Multi-day plan |
-
 </details>
 
 <details>
-<summary><b>🎓 Learning (3)</b></summary>
+<summary><b>🎓 Learning (3)</b> — Gets better every session</summary>
 
 | Skill | What it does |
 |-------|-------------|
 | Preferences | Remembers your style |
 | Patterns | Learns what you build |
 | Mistakes | Never repeats errors |
-
 </details>
 
 <details>
-<summary><b>⚙️ Engine (2)</b></summary>
+<summary><b>⚙️ Engine (2)</b> — Save money + Remember</summary>
 
 | Skill | What it does |
 |-------|-------------|
-| Compression | I-Lang, 60%+ savings |
+| Compression | I-Lang protocol, 60%+ cost savings |
 | Memory | Remembers across sessions |
-
 </details>
 
 ---
 
 ## 💰 Save Money
 
-[I-Lang](https://ilang.ai) compression. Internal processing compressed automatically. **Dev costs drop 60%+.**
-
----
+Powered by [I-Lang](https://ilang.ai) compression. Internal processing compressed automatically. **Dev costs drop 60%+.**
 
 ## 🧠 Memory
 
-Close today → open tomorrow → remembers everything. Gets better every session.
+Close today → open tomorrow → remembers everything. Project memory + global preferences. Gets better every session.
 
 ---
 
@@ -243,21 +230,52 @@ Every AI coding tool assumes you know how to code. AutoCode doesn't.
 | **Memory** | Mostly none | **Automatic** |
 | **Dev cost** | No savings | **-60%+** |
 | **Learns you** | No | **Yes** |
+| **Language** | Usually English | **Your language** |
 | **Dependencies** | Various | **Zero** |
 
 ---
 
 ## ❓ FAQ
 
-**Can't code at all?** → That's who this is for.
+<details>
+<summary><b>Something went wrong and I don't know what to do</b></summary>
+Just say "something's wrong" or "有问题". AutoCode asks simple questions to find the problem. No technical knowledge needed.
+</details>
 
-**vs hiring dev?** → Free, 25 min, 24/7, gets better.
+<details>
+<summary><b>Plugin won't install via /plugin command</b></summary>
+Try saying it directly: "Install the AutoCode plugin from github.com/ilang-ai/autocode". Claude Code will handle it.
+</details>
 
-**Quality?** → Auto-testing, security, full review every save.
+<details>
+<summary><b>I don't understand English</b></summary>
+Just speak your language. AutoCode responds in the same language.
+</details>
 
-**Learn to code?** → Probably. You watch and start understanding.
+<details>
+<summary><b>Can't code at all?</b></summary>
+That's who this is for.
+</details>
 
-**Free forever?** → MIT. No tricks.
+<details>
+<summary><b>vs hiring a developer?</b></summary>
+Free, 25 min, 24/7, gets better over time.
+</details>
+
+<details>
+<summary><b>Is the quality good?</b></summary>
+Quality checks, security, full project review on every save.
+</details>
+
+<details>
+<summary><b>Will I learn to code?</b></summary>
+Probably. You watch AutoCode review your project and start understanding.
+</details>
+
+<details>
+<summary><b>Free forever?</b></summary>
+MIT. No tricks.
+</details>
 
 ---
 

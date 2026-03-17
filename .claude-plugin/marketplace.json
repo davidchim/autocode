@@ -9,7 +9,7 @@
     {
       "name": "autocode",
       "source": "./plugins/autocode",
-      "version": "3.3.1",
+      "version": "3.3.2",
       "description": "39 skills, persistent memory, 60%+ dev cost savings. Zero dependencies."
     }
   ]
