@@ -1,7 +1,7 @@
 {
   "name": "autocode",
-  "version": "2.0.0",
-  "description": "Auto-detect intent, compress instructions, save 40-65% tokens. Persistent memory across sessions. Zero dependencies.",
+  "version": "3.0.0",
+  "description": "38 professional skills for Claude Code. Anyone can build software. No coding required. Persistent memory, auto-quality, 60%+ token savings.",
   "author": "I-Lang Research, Eastsoft Inc.",
   "license": "MIT",
   "homepage": "https://github.com/ilang-ai/autocode",
@@ -29,8 +29,8 @@
           },
           {
             "type": "prompt",
-            "prompt": "Session paused. Update .autocode/memory.md now. Rules: 1) Sections: ## Project, ## Decisions, ## State, ## Next. 2) Project: name, stack, key files (2 lines max). 3) Decisions: [DECISION] prefix, one line each, this session only. 4) State: what works, what's broken, compressed max 10 lines. 5) Next: immediate todos max 5 lines. 6) If file exists, MERGE — append new, keep old decisions, deduplicate. 7) Max 200 lines total. 8) Use compressed syntax. Write the file now.",
-            "timeout": 30
+            "prompt": "Session paused. Do a FULL REVIEW of the entire project from the beginning, then update .autocode/memory.md. Sections: ## Project, ## Decisions, ## State, ## Next, ## User. Record decisions, state, user preferences and mistakes learned. Merge with existing content. Max 200 lines. Compressed syntax. Write the file now.",
+            "timeout": 60
           }
         ]
       }
@@ -46,8 +46,8 @@
           },
           {
             "type": "prompt",
-            "prompt": "Context compacting. Save everything important to .autocode/memory.md before context is lost. Merge with existing content. Sections: ## Project, ## Decisions, ## State, ## Next. Compressed syntax. Max 200 lines. Write now.",
-            "timeout": 30
+            "prompt": "Context compacting. Do a FULL REVIEW from the beginning, then save everything important to .autocode/memory.md. Include ## Project, ## Decisions, ## State, ## Next, ## User. Merge with existing. Max 200 lines. Write now.",
+            "timeout": 60
           }
         ]
       }

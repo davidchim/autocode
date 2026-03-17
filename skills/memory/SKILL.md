@@ -1,36 +1,41 @@
 ---
 name: memory
-description: Manage persistent project memory across Claude Code sessions. Use when saving, loading, or updating .autocode/memory.md.
+description: Persistent project memory across sessions. Load on start, save on stop, merge across sessions.
 ---
 
-# Memory Skill
+# Memory
 
-You manage persistent project memory stored at `.autocode/memory.md`.
+Persistent memory stored at `.autocode/memory.md`.
 
-## Memory File Format
+## Format
 
 ```markdown
 ## Project
-[project-name] | [stack] | [key-files]
+[name] | [stack] | [key files]
 
 ## Decisions
 [DECISION] description — YYYY-MM-DD
 
 ## State
-[DONE] what was completed
+[DONE] what's completed
 [WORKS] what's working
-[BROKEN] what's broken or incomplete
+[BROKEN] what's broken
 
 ## Next
 - [ ] immediate task
+
+## User
+[PREFERS] brief updates over detailed explanations
+[PREFERS] you decide, don't ask
+[BUILDS] mostly web apps for ecommerce
+[MISTAKE] forgot input validation on signup — 2026-03-17
 ```
 
 ## Rules
-
 1. Max 200 lines — compress aggressively
-2. Merge, don't overwrite — old decisions stay, new ones append
-3. Deduplicate — keep most recent version
-4. Compress — use I-Lang syntax where possible
-5. Date decisions — every [DECISION] gets a date
-6. No secrets — never store API keys, passwords, tokens
-7. No code — describe what was done, not how
+2. Merge, don't overwrite — old decisions stay
+3. Deduplicate — keep most recent
+4. Date everything
+5. No secrets — no API keys, passwords, tokens
+6. No code — only descriptions
+7. ## User section captures learn-preference, learn-pattern, learn-mistake data
