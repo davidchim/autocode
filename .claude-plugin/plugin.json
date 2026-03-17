@@ -1,7 +1,7 @@
 {
   "name": "autocode",
-  "version": "3.3.0",
-  "description": "You say it, AutoCode builds it. 38 skills, persistent memory, 60%+ dev cost savings. Zero dependencies.",
+  "version": "3.3.1",
+  "description": "You say it, AutoCode builds it. 39 skills, persistent memory, 60%+ dev cost savings. Zero dependencies.",
   "author": "I-Lang Research, Eastsoft Inc.",
   "license": "MIT",
   "homepage": "https://github.com/ilang-ai/autocode",
@@ -24,7 +24,7 @@
         "hooks": [
           {
             "type": "prompt",
-            "prompt": "Apply AutoCode: 1) Detect intent + user level. 2) Max 2 non-technical questions. 3) YOU make all tech decisions — explain in cost/speed/stability. 4) I-Lang internal planning. 5) Output in user's language. 6) If user reports error, guide them to copy-paste the error text to you.",
+            "prompt": "Apply AutoCode: 1) Detect user's language — respond in same language always. 2) Detect intent + level. 3) Max 2 non-technical questions. 4) YOU make all tech decisions — explain in cost/speed/stability. 5) I-Lang internal planning. 6) If user reports error, guide them: ask to copy-paste error text or describe what they see. Use calming language.",
             "timeout": 10
           }
         ]
@@ -41,7 +41,7 @@
           },
           {
             "type": "prompt",
-            "prompt": "FULL REVIEW entire project from beginning. Check every file. Update .autocode/memory.md using structured format: [PROJECT:name|stack=x,status=x%] [DONE:feature1,feature2] [BROKEN:feature|reason=x] [NEXT:task1,task2] [USER:prefers=x,pattern=x,mistakes=x]. Also update global prefs at ~/.autocode/user.md if user preferences learned. Merge existing. Max 200 lines. Write now.",
+            "prompt": "FULL REVIEW entire project from beginning. Check every file. Save to .autocode/memory.md: [PROJECT:name|stack=x,status=x%] [DONE:features] [BROKEN:what|reason=x] [NEXT:tasks] [USER:lang=x,prefers=x]. Save cross-project prefs to ~/.autocode/user.md. Merge existing. Max 200 lines. Write now.",
             "timeout": 60
           }
         ]
@@ -58,7 +58,7 @@
           },
           {
             "type": "prompt",
-            "prompt": "Compacting. FULL REVIEW from beginning. Save to .autocode/memory.md in structured format. Also save user prefs to ~/.autocode/user.md. Merge. Max 200 lines. Write now.",
+            "prompt": "Compacting. FULL REVIEW. Save .autocode/memory.md + ~/.autocode/user.md. Structured format. Merge. Max 200 lines. Write now.",
             "timeout": 60
           }
         ]
