@@ -1,7 +1,7 @@
 {
   "name": "autocode",
-  "version": "3.0.0",
-  "description": "38 professional skills for Claude Code. Anyone can build software. No coding required. Persistent memory, auto-quality, 60%+ token savings.",
+  "version": "3.1.1",
+  "description": "38 professional skills for Claude Code. Anyone can build software. No coding required. Persistent memory, auto-quality, 60%+ dev cost savings.",
   "author": "I-Lang Research, Eastsoft Inc.",
   "license": "MIT",
   "homepage": "https://github.com/ilang-ai/autocode",
@@ -18,6 +18,18 @@
         ]
       }
     ],
+    "UserPromptSubmit": [
+      {
+        "matcher": "*",
+        "hooks": [
+          {
+            "type": "prompt",
+            "prompt": "Before responding, apply AutoCode skills: 1) Detect intent and user level. 2) Max 2 non-technical questions. 3) Make all technical decisions yourself — explain in cost/speed/stability. 4) Use I-Lang compressed syntax for internal planning. 5) Output in user's natural language.",
+            "timeout": 10
+          }
+        ]
+      }
+    ],
     "Stop": [
       {
         "matcher": "*",
@@ -29,7 +41,7 @@
           },
           {
             "type": "prompt",
-            "prompt": "Session paused. Do a FULL REVIEW of the entire project from the beginning, then update .autocode/memory.md. Sections: ## Project, ## Decisions, ## State, ## Next, ## User. Record decisions, state, user preferences and mistakes learned. Merge with existing content. Max 200 lines. Compressed syntax. Write the file now.",
+            "prompt": "Do a FULL REVIEW of the entire project from the beginning. Check every file. Then update .autocode/memory.md with: ## Project, ## Decisions, ## State, ## Next, ## User. Merge with existing. Max 200 lines. Compressed I-Lang syntax. Write now.",
             "timeout": 60
           }
         ]
@@ -46,7 +58,7 @@
           },
           {
             "type": "prompt",
-            "prompt": "Context compacting. Do a FULL REVIEW from the beginning, then save everything important to .autocode/memory.md. Include ## Project, ## Decisions, ## State, ## Next, ## User. Merge with existing. Max 200 lines. Write now.",
+            "prompt": "Context compacting. FULL REVIEW from beginning, then save to .autocode/memory.md. ## Project, ## Decisions, ## State, ## Next, ## User. Merge existing. Max 200 lines. I-Lang compressed. Write now.",
             "timeout": 60
           }
         ]
