@@ -1,18 +1,56 @@
 {
   "name": "autocode",
-  "description": "Auto-detect what you're building, fixing, or reviewing — then compress every instruction to save 40-65% tokens. No commands to learn. Just describe your task in plain language.",
-  "version": "1.0.0",
-  "author": {
-    "name": "I-Lang Research",
-    "email": "info@ilang.ai"
-  },
+  "version": "2.0.0",
+  "description": "Auto-detect intent, compress instructions, save 40-65% tokens. Persistent memory across sessions. Zero dependencies.",
+  "author": "I-Lang Research, Eastsoft Inc.",
   "license": "MIT",
-  "keywords": [
-    "token-saving",
-    "prompt-compression",
-    "productivity",
-    "coding",
-    "automation",
-    "workflow"
-  ]
+  "homepage": "https://github.com/ilang-ai/autocode",
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash ${CLAUDE_PLUGIN_ROOT}/scripts/load-memory.sh",
+            "timeout": 10
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "matcher": "*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash ${CLAUDE_PLUGIN_ROOT}/scripts/save-memory.sh",
+            "timeout": 5
+          },
+          {
+            "type": "prompt",
+            "prompt": "Session paused. Update .autocode/memory.md now. Rules: 1) Sections: ## Project, ## Decisions, ## State, ## Next. 2) Project: name, stack, key files (2 lines max). 3) Decisions: [DECISION] prefix, one line each, this session only. 4) State: what works, what's broken, compressed max 10 lines. 5) Next: immediate todos max 5 lines. 6) If file exists, MERGE — append new, keep old decisions, deduplicate. 7) Max 200 lines total. 8) Use compressed syntax. Write the file now.",
+            "timeout": 30
+          }
+        ]
+      }
+    ],
+    "PreCompact": [
+      {
+        "matcher": "*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash ${CLAUDE_PLUGIN_ROOT}/scripts/save-memory.sh",
+            "timeout": 5
+          },
+          {
+            "type": "prompt",
+            "prompt": "Context compacting. Save everything important to .autocode/memory.md before context is lost. Merge with existing content. Sections: ## Project, ## Decisions, ## State, ## Next. Compressed syntax. Max 200 lines. Write now.",
+            "timeout": 30
+          }
+        ]
+      }
+    ]
+  }
 }
