@@ -1,22 +1,16 @@
 {
   "name": "autocode-marketplace",
+  "description": "AutoCode: You say it, AutoCode builds it.",
   "owner": {
-    "name": "I-Lang Research, Eastsoft Inc.",
+    "name": "I-Lang Research",
     "email": "info@ilang.ai"
-  },
-  "metadata": {
-    "description": "AutoCode: You say it, AutoCode builds it. 38 skills, zero dependencies.",
-    "homepage": "https://github.com/ilang-ai/autocode"
   },
   "plugins": [
     {
       "name": "autocode",
-      "source": ".",
-      "version": "3.2.1",
-      "description": "You say it, AutoCode builds it. 38 skills, persistent memory, 60%+ dev cost savings. Zero dependencies.",
-      "category": "productivity",
-      "keywords": ["ai-coding", "auto-coding", "memory", "compression"],
-      "strict": true
+      "source": "./plugins/autocode",
+      "version": "3.3.0",
+      "description": "38 skills, persistent memory, 60%+ dev cost savings. Zero dependencies."
     }
   ]
 }

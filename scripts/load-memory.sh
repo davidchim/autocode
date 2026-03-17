@@ -1,23 +1,31 @@
 #!/bin/bash
+# AutoCode: Load I-Lang protocol + global prefs + project memory
+
+# I-Lang Protocol
 cat << 'PROTOCOL'
 ## [AutoCode] I-Lang Protocol Active
 
-You understand I-Lang, a compression protocol for human-AI communication.
-
+Compression protocol for internal planning. User never sees this syntax.
 Syntax: [VERB:SOURCE|param=value]=>[NEXT]=>[OUT]
 Chain with =>. Remove filler, keep meaning.
-
 Verbs: READ|WRITE|GET|FMT|CONV|SPLIT|MERGE|MAP|FILT|SORT|DEDUP|FLAT|CMP|DIFF|RANK|EVAL|GEN|DRAFT|EXPAND|REWRITE|SUM|OUT|LOOP|DELTA|SCAN|MATCH|COUNT|STATS|EXTRACT|TRANSLATE|CLASSIFY
-
 Modifiers: fmt= len= ton= lang= sty= cnt= key= src= tgt=
-
-Use for ALL internal planning. Output in user's natural language.
 PROTOCOL
 
 echo ""
+
+# Global user preferences (cross-project)
+GLOBAL_PREFS="$HOME/.autocode/user.md"
+if [ -f "$GLOBAL_PREFS" ]; then
+  echo "## [AutoCode] User Preferences Loaded"
+  cat "$GLOBAL_PREFS"
+  echo ""
+fi
+
+# Project memory
 MEMORY_FILE=".autocode/memory.md"
 if [ -f "$MEMORY_FILE" ]; then
-  echo "## [AutoCode] Memory Loaded"
+  echo "## [AutoCode] Project Memory Loaded"
   echo ""
   cat "$MEMORY_FILE"
   echo ""
