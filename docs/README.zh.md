@@ -5,11 +5,12 @@
 ### 你说一句话。所有编程，全自动。
 
 [![MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
-[![v3.4](https://img.shields.io/badge/version-3.4.0-blue.svg)](https://github.com/ilang-ai/autocode/releases)
+[![v4.0.1](https://img.shields.io/badge/version-4.0.1-blue.svg)](https://github.com/ilang-ai/autocode/releases)
 [![Skills](https://img.shields.io/badge/专业技能-39项-blueviolet)](#39项专业技能)
 [![Zero Deps](https://img.shields.io/badge/依赖-0-brightgreen)](#安装)
 [![Cost](https://img.shields.io/badge/开发费用-节省60%25+-orange)](#省钱)
 [![Memory](https://img.shields.io/badge/记忆-跨天持久-purple)](#记忆)
+[![平台](https://img.shields.io/badge/平台-Claude%20Code%20%7C%20Codex%20%7C%20OpenCode-blue)](#安装)
 
 [English](../README.md) · [🇯🇵 日本語](README.ja.md) · [🇰🇷 한국어](README.ko.md) · [🇪🇸 Español](README.es.md) · [🇧🇷 Português](README.pt.md) · [🇩🇪 Deutsch](README.de.md) · [🇫🇷 Français](README.fr.md) · [🇷🇺 Русский](README.ru.md) · [🇸🇦 العربية](README.ar.md) · [🇮🇳 हिन्दी](README.hi.md)
 
@@ -53,6 +54,24 @@ claude
 ```
 
 重启。开口说话。完事。
+
+### Codex
+
+在 Codex 中说：
+
+```
+Fetch and follow instructions from https://raw.githubusercontent.com/ilang-ai/autocode/refs/heads/main/.codex/INSTALL.md
+```
+
+### OpenCode
+
+在 OpenCode 中说：
+
+```
+Fetch and follow instructions from https://raw.githubusercontent.com/ilang-ai/autocode/refs/heads/main/.opencode/INSTALL.md
+```
+
+**支持 Claude Code、Codex、OpenCode 三大平台。** 39个技能通用，零修改。
 
 ---
 

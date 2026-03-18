@@ -5,11 +5,12 @@
 ### You say it. All coding is automatic.
 
 [![MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
-[![v3.4](https://img.shields.io/badge/version-3.4.0-blue.svg)](https://github.com/ilang-ai/autocode/releases)
+[![v4.0.1](https://img.shields.io/badge/version-4.0.1-blue.svg)](https://github.com/ilang-ai/autocode/releases)
 [![Skills](https://img.shields.io/badge/Skills-39-blueviolet)](#-39-professional-skills)
 [![Zero Deps](https://img.shields.io/badge/Dependencies-0-brightgreen)](#-install)
 [![Cost](https://img.shields.io/badge/Dev%20Cost-Save%2060%25+-orange)](#-save-money)
 [![Memory](https://img.shields.io/badge/Memory-Persistent-purple)](#-memory)
+[![Platforms](https://img.shields.io/badge/Platforms-Claude%20Code%20%7C%20Codex%20%7C%20OpenCode-blue)](#-install)
 
 [🇨🇳 中文](docs/README.zh.md) · [🇯🇵 日本語](docs/README.ja.md) · [🇰🇷 한국어](docs/README.ko.md) · [🇪🇸 Español](docs/README.es.md) · [🇧🇷 Português](docs/README.pt.md) · [🇩🇪 Deutsch](docs/README.de.md) · [🇫🇷 Français](docs/README.fr.md) · [🇷🇺 Русский](docs/README.ru.md) · [🇸🇦 العربية](docs/README.ar.md) · [🇮🇳 हिन्दी](docs/README.hi.md)
 
@@ -53,6 +54,24 @@ Or use the command:
 ```
 
 Restart. Start talking. Done.
+
+### Codex
+
+Tell Codex:
+
+```
+Fetch and follow instructions from https://raw.githubusercontent.com/ilang-ai/autocode/refs/heads/main/.codex/INSTALL.md
+```
+
+### OpenCode
+
+Tell OpenCode:
+
+```
+Fetch and follow instructions from https://raw.githubusercontent.com/ilang-ai/autocode/refs/heads/main/.opencode/INSTALL.md
+```
+
+**Works on Claude Code, Codex, and OpenCode.** Same 39 skills, zero changes.
 
 ---
 

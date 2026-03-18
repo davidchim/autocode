@@ -2,7 +2,7 @@
 
 <div align="center">
 
-### आप बोलें। कोडिंग ऑटोमैटिक है।
+### बस बोलिए। कोडिंग पूरी तरह ऑटोमैटिक है।
 
 [English](../README.md) · [🇨🇳 中文](README.zh.md)
 
@@ -10,37 +10,48 @@
 
 > **AutoCode = ऑटोमैटिक कोडिंग।**
 >
-> बताएं क्या चाहिए। टेक्नोलॉजी, कोड, टेस्टिंग, डिप्लॉयमेंट — सब ऑटोमैटिक।
-> प्रोग्रामिंग की जानकारी जरूरी नहीं।
+> बताइए क्या चाहिए। टेक्नोलॉजी, कोड, टेस्टिंग, डिप्लॉयमेंट — सब ऑटोमैटिक।
+> प्रोग्रामिंग की जानकारी बिल्कुल जरूरी नहीं।
 
 ---
 
 </div>
 
-## 🚀 इंस्टॉल
+## 🚀 इंस्टॉलेशन
+
+### Claude Code
 
 ```bash
 curl -fsSL https://raw.githubusercontent.com/ilang-ai/autocode/main/setup.sh | bash
-```
-
-```bash
 claude
 ```
 
-लॉगिन के बाद बोलें:
+लॉगिन के बाद:
 
 ```
 Install the AutoCode plugin from github.com/ilang-ai/autocode
 ```
 
-रीस्टार्ट करें। बोलना शुरू करें।
+### Codex
+
+```
+Fetch and follow instructions from https://raw.githubusercontent.com/ilang-ai/autocode/refs/heads/main/.codex/INSTALL.md
+```
+
+### OpenCode
+
+```
+Fetch and follow instructions from https://raw.githubusercontent.com/ilang-ai/autocode/refs/heads/main/.opencode/INSTALL.md
+```
 
 ## 🔰 पहली बार?
 
 सर्वर चाहिए → [dev.ilang.ai](https://dev.ilang.ai) ($300 फ्री क्रेडिट)
 
-39 प्रोफेशनल स्किल्स ऑटोमैटिक। कोई टेक्निकल सवाल नहीं। 60%+ बचत। सेशन मेमोरी। आपकी भाषा में।
+39 प्रोफेशनल स्किल्स ऑटोमैटिक। कोई टेक्निकल सवाल नहीं। अधिकतम 2 सरल सवाल। 60%+ डेवलपमेंट कॉस्ट बचत। सेशन के बीच मेमोरी। आपकी भाषा में।
 
-**MIT · फ्री · हमेशा**
+**3 प्लेटफॉर्म: Claude Code · Codex · OpenCode**
 
-[ilang.ai](https://ilang.ai) · [@adsorgcn](https://x.com/adsorgcn)
+**MIT · फ्री · हमेशा के लिए**
+
+[ilang.ai](https://ilang.ai) · [research.ilang.ai](https://research.ilang.ai) · [@adsorgcn](https://x.com/adsorgcn)

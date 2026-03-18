@@ -2,7 +2,7 @@
 
 <div align="center">
 
-### قل ما تريد. البرمجة تلقائية.
+### قلها فقط. البرمجة تلقائية بالكامل.
 
 [English](../README.md) · [🇨🇳 中文](README.zh.md)
 
@@ -10,8 +10,8 @@
 
 > **AutoCode = برمجة تلقائية.**
 >
-> قل ما تريد بناءه. التقنية، الكود، الاختبار، النشر — كل شيء تلقائي.
-> لا تحتاج معرفة بالبرمجة.
+> قل ما تريد. التقنية والكود والاختبار والنشر — كل شيء تلقائي.
+> لا تحتاج لمعرفة البرمجة.
 
 ---
 
@@ -19,28 +19,39 @@
 
 ## 🚀 التثبيت
 
-```bash
-curl -fsSL https://raw.githubusercontent.com/ilang-ai/autocode/main/setup.sh | bash
-```
+### Claude Code
 
 ```bash
+curl -fsSL https://raw.githubusercontent.com/ilang-ai/autocode/main/setup.sh | bash
 claude
 ```
 
-:بعد تسجيل الدخول
+بعد تسجيل الدخول:
 
 ```
 Install the AutoCode plugin from github.com/ilang-ai/autocode
 ```
 
-.أعد التشغيل. ابدأ بالتحدث
+### Codex
+
+```
+Fetch and follow instructions from https://raw.githubusercontent.com/ilang-ai/autocode/refs/heads/main/.codex/INSTALL.md
+```
+
+### OpenCode
+
+```
+Fetch and follow instructions from https://raw.githubusercontent.com/ilang-ai/autocode/refs/heads/main/.opencode/INSTALL.md
+```
 
 ## 🔰 أول مرة؟
 
-[dev.ilang.ai](https://dev.ilang.ai) ← تحتاج خادم (رصيد مجاني $300)
+تحتاج خادم → [dev.ilang.ai](https://dev.ilang.ai) (رصيد مجاني $300)
 
-39 مهارة احترافية تلقائية. بدون أسئلة تقنية. توفير 60%+. ذاكرة بين الجلسات. بلغتك.
+39 مهارة احترافية تعمل تلقائياً. بدون أسئلة تقنية. سؤالان بسيطان كحد أقصى. توفير 60%+ في تكاليف التطوير. ذاكرة بين الجلسات. بلغتك.
+
+**3 منصات: Claude Code · Codex · OpenCode**
 
 **MIT · مجاني · للأبد**
 
-[ilang.ai](https://ilang.ai) · [@adsorgcn](https://x.com/adsorgcn)
+[ilang.ai](https://ilang.ai) · [research.ilang.ai](https://research.ilang.ai) · [@adsorgcn](https://x.com/adsorgcn)

@@ -8,9 +8,9 @@
 
 ---
 
-> **AutoCode = Programación Automática.**
+> **AutoCode = Programación automática.**
 >
-> Dices lo que quieres. Tecnología, código, pruebas, despliegue — todo automático.
+> Di lo que quieres. Tecnología, código, pruebas, despliegue — todo automático.
 > No necesitas saber programar.
 
 ---
@@ -19,11 +19,10 @@
 
 ## 🚀 Instalación
 
-```bash
-curl -fsSL https://raw.githubusercontent.com/ilang-ai/autocode/main/setup.sh | bash
-```
+### Claude Code
 
 ```bash
+curl -fsSL https://raw.githubusercontent.com/ilang-ai/autocode/main/setup.sh | bash
 claude
 ```
 
@@ -33,13 +32,25 @@ Después de iniciar sesión:
 Install the AutoCode plugin from github.com/ilang-ai/autocode
 ```
 
-Reinicia. Empieza a hablar.
+### Codex
+
+```
+Fetch and follow instructions from https://raw.githubusercontent.com/ilang-ai/autocode/refs/heads/main/.codex/INSTALL.md
+```
+
+### OpenCode
+
+```
+Fetch and follow instructions from https://raw.githubusercontent.com/ilang-ai/autocode/refs/heads/main/.opencode/INSTALL.md
+```
 
 ## 🔰 ¿Primera vez?
 
-Necesitas un servidor → [dev.ilang.ai](https://dev.ilang.ai) ($300 crédito gratis)
+Necesitas un servidor → [dev.ilang.ai](https://dev.ilang.ai) ($300 de crédito gratis)
 
-39 habilidades profesionales automáticas. Sin preguntas técnicas. Máximo 2 preguntas simples. 60%+ ahorro en costos. Memoria entre sesiones. En tu idioma.
+39 habilidades profesionales automáticas. Sin preguntas técnicas. Máximo 2 preguntas simples. Ahorro de costos de desarrollo 60%+. Memoria entre sesiones. En tu idioma.
+
+**3 plataformas: Claude Code · Codex · OpenCode**
 
 **MIT · Gratis · Para siempre**
 

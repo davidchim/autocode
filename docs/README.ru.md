@@ -11,7 +11,7 @@
 > **AutoCode = Автоматическое программирование.**
 >
 > Скажите, что хотите. Технологии, код, тесты, деплой — всё автоматически.
-> Знания программирования не нужны.
+> Знание программирования не требуется.
 
 ---
 
@@ -19,11 +19,10 @@
 
 ## 🚀 Установка
 
-```bash
-curl -fsSL https://raw.githubusercontent.com/ilang-ai/autocode/main/setup.sh | bash
-```
+### Claude Code
 
 ```bash
+curl -fsSL https://raw.githubusercontent.com/ilang-ai/autocode/main/setup.sh | bash
 claude
 ```
 
@@ -33,14 +32,26 @@ claude
 Install the AutoCode plugin from github.com/ilang-ai/autocode
 ```
 
-Перезапустите. Говорите.
+### Codex
 
-## 🔰 Первый раз?
+```
+Fetch and follow instructions from https://raw.githubusercontent.com/ilang-ai/autocode/refs/heads/main/.codex/INSTALL.md
+```
 
-Нужен сервер → [dev.ilang.ai](https://dev.ilang.ai) ($300 кредит)
+### OpenCode
 
-39 автоматических навыков. Без технических вопросов. Экономия 60%+. Память между сессиями. На вашем языке.
+```
+Fetch and follow instructions from https://raw.githubusercontent.com/ilang-ai/autocode/refs/heads/main/.opencode/INSTALL.md
+```
+
+## 🔰 Впервые?
+
+Нужен сервер → [dev.ilang.ai](https://dev.ilang.ai) ($300 бесплатного кредита)
+
+39 профессиональных навыков работают автоматически. Никаких технических вопросов. Максимум 2 простых вопроса. 60%+ экономии на разработке. Память между сессиями. На вашем языке.
+
+**3 платформы: Claude Code · Codex · OpenCode**
 
 **MIT · Бесплатно · Навсегда**
 
-[ilang.ai](https://ilang.ai) · [@adsorgcn](https://x.com/adsorgcn)
+[ilang.ai](https://ilang.ai) · [research.ilang.ai](https://research.ilang.ai) · [@adsorgcn](https://x.com/adsorgcn)
