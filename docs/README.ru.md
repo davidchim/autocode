@@ -1,12 +1,46 @@
 # ⚡ AutoCode
 
-> Translation coming soon. See [English](../README.md) or [中文](README.zh.md) for the full documentation.
+<div align="center">
 
-## Install
+### Вы говорите. Программирование автоматическое.
+
+[English](../README.md) · [🇨🇳 中文](README.zh.md)
+
+---
+
+> **AutoCode = Автоматическое программирование.**
+>
+> Скажите, что хотите. Технологии, код, тесты, деплой — всё автоматически.
+> Знания программирования не нужны.
+
+---
+
+</div>
+
+## 🚀 Установка
 
 ```bash
-/plugin marketplace add ilang-ai/autocode
-/plugin install autocode@autocode
+curl -fsSL https://raw.githubusercontent.com/ilang-ai/autocode/main/setup.sh | bash
 ```
 
-[ilang.ai](https://ilang.ai) · [GitHub](https://github.com/ilang-ai/autocode) · MIT · Free Forever
+```bash
+claude
+```
+
+После входа:
+
+```
+Install the AutoCode plugin from github.com/ilang-ai/autocode
+```
+
+Перезапустите. Говорите.
+
+## 🔰 Первый раз?
+
+Нужен сервер → [dev.ilang.ai](https://dev.ilang.ai) ($300 кредит)
+
+39 автоматических навыков. Без технических вопросов. Экономия 60%+. Память между сессиями. На вашем языке.
+
+**MIT · Бесплатно · Навсегда**
+
+[ilang.ai](https://ilang.ai) · [@adsorgcn](https://x.com/adsorgcn)

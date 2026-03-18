@@ -5,9 +5,9 @@
 ### You say it. All coding is automatic.
 
 [![MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
-[![v3.3](https://img.shields.io/badge/version-3.3.3-blue.svg)](https://github.com/ilang-ai/autocode/releases)
+[![v3.4](https://img.shields.io/badge/version-3.4.0-blue.svg)](https://github.com/ilang-ai/autocode/releases)
 [![Skills](https://img.shields.io/badge/Skills-39-blueviolet)](#-39-professional-skills)
-[![Zero Deps](https://img.shields.io/badge/Dependencies-0-brightgreen)](#step-1-get-a-cloud-computer)
+[![Zero Deps](https://img.shields.io/badge/Dependencies-0-brightgreen)](#-install)
 [![Cost](https://img.shields.io/badge/Dev%20Cost-Save%2060%25+-orange)](#-save-money)
 [![Memory](https://img.shields.io/badge/Memory-Persistent-purple)](#-memory)
 
@@ -18,156 +18,171 @@
 > **AutoCode = Automatic Coding.**
 >
 > You say what you want. AutoCode builds it.
-> Which technology, how to code, how to test, how to deploy — all automatic.
-> You don't need to know anything about programming.
+> Technology, coding, testing, deployment — all automatic.
+> You don't need to know programming.
 
 ---
 
 </div>
 
-## 🚀 Complete Setup Guide (From Zero)
+## 🚀 Install
 
-If you already have Claude Code, [skip to Step 3](#step-3-install-autocode).
-
----
-
-### Step 1: Get a Cloud Computer
-
-You need a cloud computer (VPS) to run AutoCode. Think of it as a computer in the cloud that's always on — you connect to it from your browser or terminal.
-
-**👉 Go to [dev.ilang.ai](https://dev.ilang.ai)** — this takes you to Vultr, a cloud computer provider. New users get **$300 free credit** (enough for over a year).
-
-**How to sign up:**
-
-1. Click the link, you'll see a registration page
-2. Enter your email and create a password
-3. Check your email, click the verification link
-4. Add payment method — Vultr supports **credit card, PayPal, and Alipay (支付宝)**
-5. Your $300 free credit is applied automatically
-
-**How to create your cloud computer:**
-
-1. After logging in, click **"Deploy +"** button (top right)
-2. Choose **"Deploy New Server"**
-3. **Type:** Select **"Cloud Compute — Shared CPU"** (cheapest option, perfect for development)
-4. **Location:** Choose the one closest to you (e.g., Tokyo for Asia, New York for Americas, London for Europe)
-5. **Image (Operating System):** Select **"Debian 12"**
-6. **Plan:** Select the **"$6/month"** plan (1 CPU, 1GB RAM — enough for AutoCode)
-7. Click **"Deploy Now"**
-
-Wait 1-2 minutes. When the status changes from "Installing" to **"Running"**, your cloud computer is ready.
-
-**How to find your connection info:**
-
-Click on your server name. You'll see three important pieces of information:
-- **IP Address** — looks like `149.28.xxx.xxx`
-- **Username** — usually `root`
-- **Password** — click the eye icon to reveal, click the copy button to copy
-
----
-
-### Step 2: Connect and Install
-
-**On Windows:** Download and open [PuTTY](https://putty.org). Enter your IP address, click Open. Type your username and password when asked.
-
-**On Mac:** Open Terminal (search "Terminal" in Spotlight). Type:
-```
-ssh root@your-ip-address
-```
-Then enter your password when asked.
-
-**On Phone (iOS/Android):** Download "Termius" from App Store / Google Play. Add a new host with your IP, username, and password.
-
-Once connected, you'll see a black screen with text ending in `#` — this means you're in.
-
-**Now paste this one command and press Enter:**
+**Environment setup (one command):**
 
 ```bash
 curl -fsSL https://raw.githubusercontent.com/ilang-ai/autocode/main/setup.sh | bash
 ```
 
-Wait 2-3 minutes. It installs everything automatically. When you see ✅, move to the next step.
-
----
-
-### Step 3: Install AutoCode
-
-Type `claude` and press Enter:
+**Start Claude Code and install AutoCode:**
 
 ```bash
 claude
 ```
 
-**First time?** Claude Code will ask you to log in. Follow the on-screen instructions — you'll need an [Anthropic account](https://console.anthropic.com).
-
-**After login**, just say this to Claude Code (type it and press Enter):
+After login, say:
 
 ```
 Install the AutoCode plugin from github.com/ilang-ai/autocode
 ```
 
-Claude Code will download and install AutoCode automatically. During installation, it will ask you some permission questions. **For every question, choose the option that says "Yes, and don't ask again"** or the one with the highest number. This saves you from being asked the same thing repeatedly.
+Or use the command:
 
-When it says the plugin is installed, type `/exit` and press Enter, then type `claude` again to restart.
+```
+/plugin marketplace add ilang-ai/autocode
+/plugin install autocode@autocode
+```
+
+Restart. Start talking. Done.
 
 ---
 
-### Step 4: Start Building
+## 🔰 New to Everything? No Problem.
 
-Now just say what you want. For example:
+Never used a server before? Don't know what a terminal is? That's fine — this guide starts from zero.
+
+<details>
+<summary><b>Click here for the complete beginner guide</b></summary>
+
+### Step 1: Get a Cloud Computer
+
+You need a cloud computer (VPS) — think of it as a computer in the cloud that's always on.
+
+**👉 Go to [dev.ilang.ai](https://dev.ilang.ai)** — new users get **$300 free credit** (enough for over a year).
+
+**How to sign up:**
+
+1. Click the link → registration page
+2. Enter email, create password (10+ characters, mix of uppercase, lowercase, numbers)
+3. Check email, click verification link
+4. Payment: supports **credit card, PayPal, Alipay (支付宝)**
+5. $300 free credit applied automatically
+
+**Create your cloud computer:**
+
+1. Click **"Deploy +"** (top right)
+2. **"Deploy New Server"**
+3. **Type:** "Cloud Compute — Shared CPU" (cheapest)
+4. **Location:** Closest to you (Tokyo for Asia, New York for Americas, London for Europe)
+5. **Image:** "Debian 12"
+6. **Plan:** $6/month (1 CPU, 1GB RAM — enough)
+7. Click **"Deploy Now"**
+
+Wait 1-2 minutes. Green **"Running"** = ready.
+
+**Find your connection info:**
+
+Click server name → you'll see:
+- **IP Address** — like `149.28.xxx.xxx`
+- **Username** — `root`
+- **Password** — click eye icon to show, copy button to copy
+
+### Step 2: Connect
+
+**Windows:** Download [PuTTY](https://putty.org). Enter IP, click Open. Type username and password.
+
+**Mac:** Open Terminal. Type: `ssh root@your-ip-address`. Enter password.
+
+**Phone:** Download "Termius". Add host with IP, username, password.
+
+Black screen with `#` = you're in.
+
+### Step 3: Install Everything
+
+Paste this, press Enter, wait 2 minutes:
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/ilang-ai/autocode/main/setup.sh | bash
+```
+
+### Step 4: Start Claude Code
+
+```bash
+claude
+```
+
+Log in when prompted ([Anthropic account](https://console.anthropic.com) needed).
+
+### Step 5: Install AutoCode
+
+Say:
+
+```
+Install the AutoCode plugin from github.com/ilang-ai/autocode
+```
+
+Permission questions? **Always choose the highest number** ("Yes, don't ask again"). Safe — AutoCode is pure text, no executable code.
+
+Type `/exit`, then `claude` to restart.
+
+### Step 6: Build
 
 ```
 Build me a restaurant website with online reservations
 ```
 
-AutoCode will:
-- Ask you 1-2 simple questions (like "Should users sign up?")
-- Pick the best technology automatically
-- Build step by step, showing you progress
-- Test and check security after each feature
-- Review the entire project when done
-- Give you a URL to see the result
+**You're a developer now.**
 
-**That's it. You're a developer now.**
+</details>
 
 ---
 
-## 📖 What Happens Next
+## 📖 What You'll Experience
 
-### First time → AutoCode asks 2 questions, then builds everything
+### First Time
 
 ```
-You:     "Build me a restaurant website"
-AutoCode: → "Should users sign up? Mainly mobile or desktop?"
-You:     "Yes, mobile"
-AutoCode: → Builds in 12 steps, 25 minutes
-          → "Done. Open this URL."
+You:     "Build me a restaurant website with online reservations"
+AutoCode: → Asks 2 simple questions → Builds in 25 min → "Done. Open this URL."
+
+Your effort: 1 sentence + 2 answers
+Outsourcing: $5,000-$15,000, weeks
+AutoCode: 25 minutes
 ```
 
-### Fifth time → AutoCode knows your preferences
+### Fifth Time
 
 ```
 You:     "Build an online store for a flower shop"
-AutoCode: → Starts immediately, no questions
-          → "Done. Same stack, no extra cost."
+AutoCode: → Knows your preferences → Starts immediately → "Done."
 ```
 
-### Twentieth time → You realize you understand code
+### Twentieth Time
 
 ```
 You:     "New project"
-AutoCode: → Barely asks anything, builds exactly what you want
-          → You watch and understand what it's doing
+AutoCode: → Barely asks → You realize you understand what it's doing
 ```
+
+*User feedback: "I don't even know who did the work — I thought I was supposed to code, but it was already done."*
 
 ---
 
 ## 🧠 39 Professional Skills
 
-All automatic. You never activate them. AutoCode detects what's needed and acts.
+All automatic. You never activate them.
 
 <details>
-<summary><b>📋 Understanding (5)</b> — Figuring out what you want</summary>
+<summary><b>📋 Understanding (5)</b></summary>
 
 | Skill | What it does |
 |-------|-------------|
@@ -179,7 +194,7 @@ All automatic. You never activate them. AutoCode detects what's needed and acts.
 </details>
 
 <details>
-<summary><b>📐 Planning (6)</b> — Picks the best approach</summary>
+<summary><b>📐 Planning (6)</b></summary>
 
 | Skill | What it does |
 |-------|-------------|
@@ -192,7 +207,7 @@ All automatic. You never activate them. AutoCode detects what's needed and acts.
 </details>
 
 <details>
-<summary><b>🔨 Building (3)</b> — From skeleton to product</summary>
+<summary><b>🔨 Building (3)</b></summary>
 
 | Skill | What it does |
 |-------|-------------|
@@ -202,7 +217,7 @@ All automatic. You never activate them. AutoCode detects what's needed and acts.
 </details>
 
 <details>
-<summary><b>✅ Quality (4)</b> — Silent, in the background</summary>
+<summary><b>✅ Quality (4)</b></summary>
 
 | Skill | What it does |
 |-------|-------------|
@@ -213,7 +228,7 @@ All automatic. You never activate them. AutoCode detects what's needed and acts.
 </details>
 
 <details>
-<summary><b>🔧 Debugging (5)</b> — You say "something's wrong", it fixes it</summary>
+<summary><b>🔧 Debugging (5)</b></summary>
 
 | Skill | What it does |
 |-------|-------------|
@@ -221,11 +236,11 @@ All automatic. You never activate them. AutoCode detects what's needed and acts.
 | Reason | Finds root cause |
 | Fix & Verify | Fixes + confirms |
 | Explain | Tells you in your words |
-| Fix Guide | Stuck? Asks simple questions. Can't figure it out here? It tells you exactly how to screenshot and upload to [claude.ai](https://claude.ai) where AI can see images. |
+| Fix Guide | Stuck? Guides you to screenshot and upload to [claude.ai](https://claude.ai) |
 </details>
 
 <details>
-<summary><b>💾 Saving (3)</b> — ⭐ Soul of AutoCode</summary>
+<summary><b>💾 Saving (3) — ⭐ Soul of AutoCode</b></summary>
 
 | Skill | What it does |
 |-------|-------------|
@@ -235,7 +250,7 @@ All automatic. You never activate them. AutoCode detects what's needed and acts.
 </details>
 
 <details>
-<summary><b>🚀 Deployment (4)</b> — Go live</summary>
+<summary><b>🚀 Deployment (4)</b></summary>
 
 | Skill | What it does |
 |-------|-------------|
@@ -246,7 +261,7 @@ All automatic. You never activate them. AutoCode detects what's needed and acts.
 </details>
 
 <details>
-<summary><b>📊 Progress (5)</b> — Progress + emotional reward</summary>
+<summary><b>📊 Progress (5)</b></summary>
 
 | Skill | What it does |
 |-------|-------------|
@@ -258,7 +273,7 @@ All automatic. You never activate them. AutoCode detects what's needed and acts.
 </details>
 
 <details>
-<summary><b>🎓 Learning (3)</b> — Gets better every session</summary>
+<summary><b>🎓 Learning (3)</b></summary>
 
 | Skill | What it does |
 |-------|-------------|
@@ -268,7 +283,7 @@ All automatic. You never activate them. AutoCode detects what's needed and acts.
 </details>
 
 <details>
-<summary><b>⚙️ Engine (2)</b> — Save money + Remember</summary>
+<summary><b>⚙️ Engine (2)</b></summary>
 
 | Skill | What it does |
 |-------|-------------|
@@ -280,17 +295,15 @@ All automatic. You never activate them. AutoCode detects what's needed and acts.
 
 ## 💰 Save Money
 
-Every time AI thinks, plans, and writes code, it costs money. AutoCode uses [I-Lang](https://ilang.ai) compression to reduce internal processing costs by 60%+. You don't do anything different — just talk normally. **Same result, 60%+ less cost.**
+Powered by [I-Lang](https://ilang.ai) compression. **Dev costs drop 60%+.** You do nothing different.
 
 ## 🧠 Memory
 
-Close today → open tomorrow → AutoCode remembers everything. Your preferences, decisions, project status — all saved. Gets better every session. Like a partner who's been with you for years.
+Close today → open tomorrow → remembers everything. Gets better every session.
 
 ---
 
 ## 🌍 Different from Everything Else
-
-Every AI coding tool on the market assumes you know how to code. AutoCode doesn't.
 
 |  | Other tools | **AutoCode** |
 | --- | --- | --- |
@@ -300,7 +313,6 @@ Every AI coding tool on the market assumes you know how to code. AutoCode doesn'
 | **Tech decisions** | Asks you | **Decides for you** |
 | **Memory** | Mostly none | **Automatic** |
 | **Dev cost** | No savings | **-60%+** |
-| **Learns you** | No | **Yes** |
 | **Language** | Usually English | **Your language** |
 | **Dependencies** | Various | **Zero** |
 
@@ -309,51 +321,33 @@ Every AI coding tool on the market assumes you know how to code. AutoCode doesn'
 ## ❓ Troubleshooting
 
 <details>
-<summary><b>Something went wrong and I don't know what happened</b></summary>
-
-Just say "something's wrong". AutoCode will ask you simple questions like "what do you see on the screen?" If it still can't figure it out, it will tell you exactly how to take a screenshot and upload it to claude.ai where the AI can see images.
+<summary><b>Something broke, don't know what to say</b></summary>
+Say "something's wrong". AutoCode asks simple questions. If it can't fix it in terminal, it tells you how to screenshot + upload to claude.ai.
 </details>
 
 <details>
-<summary><b>The /plugin command doesn't work</b></summary>
-
-Don't worry about /plugin commands. Just say to Claude Code: "Install the AutoCode plugin from github.com/ilang-ai/autocode" — it will handle everything through conversation.
+<summary><b>/plugin command doesn't work</b></summary>
+Just say: "Install the AutoCode plugin from github.com/ilang-ai/autocode". Talking works better than commands.
 </details>
 
 <details>
-<summary><b>Claude Code asks permission questions I don't understand</b></summary>
-
-Always choose the option with the highest number, or the one that says "Yes, and don't ask again". This is safe — AutoCode is open source and contains no executable code, only text instructions.
+<summary><b>Permission popups I don't understand</b></summary>
+Choose the highest number. AutoCode is pure text — safe to approve.
 </details>
 
 <details>
-<summary><b>I can't connect to my cloud computer</b></summary>
-
-Double-check your IP address, username, and password from the Vultr dashboard. Make sure the server status is "Running" (green). If using PuTTY, make sure you entered the IP in the "Host Name" field and port is 22.
+<summary><b>Can't connect to server</b></summary>
+Check IP, username, password in Vultr dashboard. Server must be green "Running".
 </details>
 
 <details>
-<summary><b>The curl command fails</b></summary>
-
-Make sure you copied the entire command. It should start with `curl` and end with `bash`. If your server is very new, try running `apt-get update` first, then try the curl command again.
+<summary><b>Is it safe?</b></summary>
+100% open source, pure text files. Claude Code verified: "No malicious content."
 </details>
 
 <details>
-<summary><b>Everything is in English and I don't understand</b></summary>
-
-Just speak in your language. AutoCode detects your language from your first message and responds in the same language. Chinese, Japanese, Spanish, Arabic — all supported.
-</details>
-
-<details>
-<summary><b>Is it safe? It's a third-party plugin.</b></summary>
-
-AutoCode is 100% open source (MIT license). It contains only text files (markdown) — no executable code, no network connections, no data collection. Claude Code itself verified this during our testing: "It's just prompt files, no malicious content." You can read every file in this repository.
-</details>
-
-<details>
-<summary><b>How much does it cost?</b></summary>
-
-AutoCode is free forever (MIT license). The only cost is your cloud computer ($6/month on Vultr, or free with the $300 new user credit) and Anthropic API usage for Claude Code.
+<summary><b>Cost?</b></summary>
+AutoCode: free forever (MIT). Cloud computer: $6/month (or free with $300 Vultr credit). Plus Anthropic API usage.
 </details>
 
 ---
@@ -365,7 +359,5 @@ AutoCode is free forever (MIT license). The only cost is your cloud computer ($6
 **I-Lang Research · Eastsoft Inc. · Canada · MIT · Free Forever**
 
 *You say it. AutoCode builds it.*
-
-*User feedback after first use: "I don't even know who did the work — I thought I was supposed to code, but it was already done."*
 
 </div>
