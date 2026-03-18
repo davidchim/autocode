@@ -1,8 +1,11 @@
 {
   "name": "autocode",
-  "version": "3.4.0",
+  "version": "4.0.2",
   "description": "You say it, AutoCode builds it. 39 skills, persistent memory, 60%+ dev cost savings. Zero dependencies.",
-  "author": "I-Lang Research, Eastsoft Inc.",
+  "author": {
+    "name": "I-Lang Research, Eastsoft Inc.",
+    "url": "https://github.com/ilang-ai/autocode"
+  },
   "license": "MIT",
   "homepage": "https://github.com/ilang-ai/autocode",
   "hooks": {
