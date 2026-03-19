@@ -5,7 +5,7 @@
 ### 你说一句话。所有编程，全自动。
 
 [![MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
-[![v4.0.1](https://img.shields.io/badge/version-4.0.1-blue.svg)](https://github.com/ilang-ai/autocode/releases)
+[![v4.0.2](https://img.shields.io/badge/version-4.0.2-blue.svg)](https://github.com/ilang-ai/autocode/releases)
 [![Skills](https://img.shields.io/badge/专业技能-39项-blueviolet)](#39项专业技能)
 [![Zero Deps](https://img.shields.io/badge/依赖-0-brightgreen)](#安装)
 [![Cost](https://img.shields.io/badge/开发费用-节省60%25+-orange)](#省钱)
@@ -27,6 +27,8 @@
 </div>
 
 ## 🚀 安装
+
+**👉 [看动画教程（3分钟，跟着做就行）](https://ilang.cn/acinstall.html)**
 
 **环境安装（一行命令）：**
 
@@ -73,11 +75,23 @@ Fetch and follow instructions from https://raw.githubusercontent.com/ilang-ai/au
 
 **支持 Claude Code、Codex、OpenCode 三大平台。** 39个技能通用，零修改。
 
+### Trae（中文用户推荐）
+
+不需要命令行。打开 [Trae](https://www.trae.ai/)，在AI对话框里粘贴：
+
+```
+帮我在当前目录创建 .trae/rules 文件夹，然后从这个地址下载文件保存到 .trae/rules/project-rules.md ：https://raw.githubusercontent.com/ilang-ai/trae/main/.trae/rules/project-rules.md
+```
+
+或直接下载 [ZeroCode](https://github.com/ilang-ai/trae)（40个中文技能版）。
+
 ---
 
 ## 🔰 什么都不会？没关系。
 
 没用过服务器？不知道终端是什么？没问题——下面从零开始教你。
+
+**👉 [打开动画教程](https://ilang.cn/acinstall.html)** — 跟着做就行，每一步都能复制粘贴。
 
 <details>
 <summary><b>点这里看完整小白教程</b></summary>
@@ -370,6 +384,8 @@ AutoCode永久免费。云电脑$6/月（新用户$300免费额度）。加上An
 <div align="center">
 
 [ilang.ai](https://ilang.ai) · [ilang.cn](https://ilang.cn) · [research.ilang.ai](https://research.ilang.ai) · [@adsorgcn](https://x.com/adsorgcn) · [dev.ilang.ai](https://dev.ilang.ai)
+
+**用 Trae？** 👉 [ZeroCode — 中文版，40个技能](https://github.com/ilang-ai/trae)
 
 **I-Lang Research · Eastsoft Inc. · Canada · MIT · 永久免费**
 
