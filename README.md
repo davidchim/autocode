@@ -1,3 +1,24 @@
+---
+language:
+  - en
+tags:
+  - skill
+  - agent-skill
+  - autocode
+  - claude-code
+  - codex
+  - cursor
+  - copilot
+  - gemini
+  - hermes
+  - hermes-agent
+  - opencode
+  - ai-coding
+  - i-lang
+  - zero-dependency
+license: mit
+---
+
 # ⚡ AutoCode
 
 <div align="center">
@@ -5,12 +26,12 @@
 ### You say it. All coding is automatic.
 
 [![MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
-[![v4.0.1](https://img.shields.io/badge/version-4.0.1-blue.svg)](https://github.com/ilang-ai/autocode/releases)
+[![v4.2.0](https://img.shields.io/badge/version-4.2.0-blue.svg)](https://github.com/ilang-ai/autocode/releases)
 [![Skills](https://img.shields.io/badge/Skills-39-blueviolet)](#-39-professional-skills)
 [![Zero Deps](https://img.shields.io/badge/Dependencies-0-brightgreen)](#-install)
 [![Cost](https://img.shields.io/badge/Dev%20Cost-Save%2060%25+-orange)](#-save-money)
 [![Memory](https://img.shields.io/badge/Memory-Persistent-purple)](#-memory)
-[![Platforms](https://img.shields.io/badge/Platforms-Claude%20Code%20%7C%20Codex%20%7C%20OpenCode-blue)](#-install)
+[![Platforms](https://img.shields.io/badge/Platforms-CC%20%7C%20Codex%20%7C%20Hermes%20%7C%20Cursor%20%7C%20Gemini-blue)](#-install)
 
 [🇨🇳 中文](docs/README.zh.md) · [🇯🇵 日本語](docs/README.ja.md) · [🇰🇷 한국어](docs/README.ko.md) · [🇪🇸 Español](docs/README.es.md) · [🇧🇷 Português](docs/README.pt.md) · [🇩🇪 Deutsch](docs/README.de.md) · [🇫🇷 Français](docs/README.fr.md) · [🇷🇺 Русский](docs/README.ru.md) · [🇸🇦 العربية](docs/README.ar.md) · [🇮🇳 हिन्दी](docs/README.hi.md)
 
@@ -72,6 +93,26 @@ Fetch and follow instructions from https://raw.githubusercontent.com/ilang-ai/au
 ```
 
 **Works on Claude Code, Codex, and OpenCode.** Same 39 skills, zero changes.
+
+### Hermes Agent
+
+```bash
+hermes skills install ilang-ai/autocode
+```
+
+### Cursor
+
+Copy `skills/` into `~/.cursor/skills/`, or browse [Cursor Directory](https://cursor.directory) once listed.
+
+### Gemini CLI
+
+```bash
+gemini extensions install https://github.com/ilang-ai/autocode
+```
+
+### Any SKILL.md-compatible agent
+
+Copy the `skills/` directory into your agent's skills path.
 
 ---
 
@@ -373,7 +414,7 @@ AutoCode: free forever (MIT). Cloud computer: $6/month (or free with $300 Vultr 
 
 <div align="center">
 
-[ilang.ai](https://ilang.ai) · [ilang.cn](https://ilang.cn) · [research.ilang.ai](https://research.ilang.ai) · [@adsorgcn](https://x.com/adsorgcn) · [dev.ilang.ai](https://dev.ilang.ai)
+[ilang.ai](https://ilang.ai) · [ilang.cn](https://ilang.cn) · [Hugging Face](https://huggingface.co/i-Lang/AutoCode) · [@adsorgcn](https://x.com/adsorgcn)
 
 **I-Lang Research · Eastsoft Inc. · Canada · MIT · Free Forever**
 

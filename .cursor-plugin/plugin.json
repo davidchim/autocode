@@ -1,0 +1,11 @@
+{
+  "name": "autocode",
+  "description": "You say it, AutoCode builds it. 39 skills, persistent memory, I-Lang compression, zero dependencies.",
+  "version": "4.2.0",
+  "author": {
+    "name": "I-Lang Research, Eastsoft Inc."
+  },
+  "homepage": "https://github.com/ilang-ai/autocode",
+  "repository": "https://github.com/ilang-ai/autocode",
+  "license": "MIT"
+}
