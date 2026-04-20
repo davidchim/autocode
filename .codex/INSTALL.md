@@ -20,7 +20,7 @@ Before writing any code, read all skill files in ~/.codex/autocode/skills/ and f
 ls ~/.codex/autocode/skills/
 ```
 
-39 skills loaded. Describe what you want to build.
+46 skills loaded. Describe what you want to build.
 
 ## Update
 

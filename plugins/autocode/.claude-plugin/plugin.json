@@ -1,7 +1,7 @@
 {
   "name": "autocode",
-  "version": "4.2.0",
-  "description": "You say it, AutoCode builds it. 39 skills, persistent memory, 60%+ dev cost savings. Zero dependencies.",
+  "version": "5.0.0",
+  "description": "You say it, AutoCode ships it. 46 skills. Code to deployment in one session. I-Lang v3.0 powered.",
   "author": {
     "name": "I-Lang Research, Eastsoft Inc.",
     "url": "https://github.com/ilang-ai/autocode"

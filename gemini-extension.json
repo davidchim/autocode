@@ -1,6 +1,6 @@
 {
   "name": "autocode",
-  "version": "4.2.0",
-  "description": "You say it, AutoCode builds it. 39 skills, persistent memory, I-Lang compression, zero dependencies.",
+  "version": "5.0.0",
+  "description": "You say it, AutoCode ships it. 46 skills. Code to deployment in one session. I-Lang v3.0 powered.",
   "contextFile": "README.md"
 }

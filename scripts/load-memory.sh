@@ -1,17 +1,9 @@
 #!/bin/bash
-# AutoCode: I-Lang protocol + welcome + memory
+# AutoCode v5.0: I-Lang v3.0 + memory
 
-# I-Lang Protocol (always)
-cat << 'PROTOCOL'
-## [AutoCode] I-Lang Protocol Active
-
-Compression protocol for internal planning. User never sees this syntax.
-Syntax: [VERB:SOURCE|param=value]=>[NEXT]=>[OUT]
-Verbs: READ|WRITE|GET|FMT|CONV|SPLIT|MERGE|MAP|FILT|SORT|DEDUP|FLAT|CMP|DIFF|RANK|EVAL|GEN|DRAFT|EXPAND|REWRITE|SUM|OUT|LOOP|DELTA|SCAN|MATCH|COUNT|STATS|EXTRACT|TRANSLATE|CLASSIFY
-Modifiers: fmt= len= ton= lang= sty= cnt= key= src= tgt=
-Use for internal planning only. Always respond in the user's language.
-PROTOCOL
-
+# I-Lang v3.0 Protocol (one line, not 31 verbs)
+echo "## [AutoCode] I-Lang v3.0 Active"
+echo "88 verbs. 13 Greek aliases. Spec: ilang.ai"
 echo ""
 
 # Global user preferences
@@ -30,21 +22,14 @@ if [ -f "$MEMORY_FILE" ]; then
   echo "---"
   echo "Continue where you left off."
 else
-  # First time — show welcome message
-  # Detect language from user's locale
   cat << 'WELCOME'
-## [AutoCode] Welcome / 欢迎
+## [AutoCode] Welcome
 
-AutoCode is active with 39 professional skills.
+AutoCode v5.0 active. 43 skills. I-Lang v3.0 protocol.
 
-IMPORTANT — Tell the user these three things in THEIR language (detect from their first message):
-
-1. WHAT IT DOES: "AutoCode is now active. Just tell me what you want to build — all coding is fully automatic. You don't need to know anything about programming."
-
-2. HOW TO USE IT: "Just describe what you want in plain language. For example: 'Build me a restaurant website with online reservations.' I'll handle everything — technology choices, coding, testing, deployment."
-
-3. COST SAVINGS: "AutoCode automatically compresses internal processing, saving you 60%+ on AI development costs compared to using Claude Code without it."
-
-If user speaks Chinese, say it in Chinese. If English, English. If Japanese, Japanese. Always match the user's language.
+Tell the user in THEIR language:
+1. "I'm AutoCode. Tell me what you want to build. I handle everything — code, deploy, domain. You just say yes or no."
+2. "When we're done, you'll get a real URL anyone can visit."
+3. Ask: "What computer are you using? Mac or other?"
 WELCOME
 fi
