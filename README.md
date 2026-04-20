@@ -5,15 +5,15 @@ tags:
   - skill
   - agent-skill
   - autocode
+  - deployment
+  - shipping
+  - beginner-friendly
   - claude-code
   - codex
   - cursor
   - copilot
   - gemini
   - hermes
-  - hermes-agent
-  - opencode
-  - ai-coding
   - i-lang
   - zero-dependency
 license: mit
@@ -23,25 +23,24 @@ license: mit
 
 <div align="center">
 
-### You say it. All coding is automatic.
+### You say it. AutoCode ships it.
 
 [![MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 [![v5.0.0](https://img.shields.io/badge/version-5.0.0-blue.svg)](https://github.com/ilang-ai/autocode/releases)
-[![Skills](https://img.shields.io/badge/Skills-46-blueviolet)](#-46-professional-skills)
+[![Skills](https://img.shields.io/badge/Skills-46-blueviolet)](#-46-skills)
 [![Zero Deps](https://img.shields.io/badge/Dependencies-0-brightgreen)](#-install)
-[![Cost](https://img.shields.io/badge/Dev%20Cost-Save%2060%25+-orange)](#-save-money)
-[![Memory](https://img.shields.io/badge/Memory-Persistent-purple)](#-memory)
 [![Platforms](https://img.shields.io/badge/Platforms-CC%20%7C%20Codex%20%7C%20Hermes%20%7C%20Cursor%20%7C%20Gemini-blue)](#-install)
+[![I-Lang](https://img.shields.io/badge/I--Lang-v3.0-1e3a8a.svg)](https://ilang.ai)
 
 [🇨🇳 中文](docs/README.zh.md) · [🇯🇵 日本語](docs/README.ja.md) · [🇰🇷 한국어](docs/README.ko.md) · [🇪🇸 Español](docs/README.es.md) · [🇧🇷 Português](docs/README.pt.md) · [🇩🇪 Deutsch](docs/README.de.md) · [🇫🇷 Français](docs/README.fr.md) · [🇷🇺 Русский](docs/README.ru.md) · [🇸🇦 العربية](docs/README.ar.md) · [🇮🇳 हिन्दी](docs/README.hi.md)
 
 ---
 
-> **AutoCode = Automatic Coding.**
+> **Every AI coding tool helps you write code. AutoCode helps you ship it.**
 >
-> You say what you want. AutoCode builds it.
-> Technology, coding, testing, deployment — all automatic.
-> You don't need to know programming.
+> You say what you want. AutoCode builds it, deploys it, and gives you a live URL.
+> You don't need to know programming. You just say yes or no.
+> When it's done, anyone in the world can visit your website.
 
 ---
 
@@ -211,33 +210,38 @@ Build me a restaurant website with online reservations
 ### First Time
 
 ```
-You:     "Build me a restaurant website with online reservations"
-AutoCode: → Asks 2 simple questions → Builds in 25 min → "Done. Open this URL."
+You:      "I want to sell cakes online"
+AutoCode:  "What computer do you use? Mac or other?"
+You:      "Other"
+AutoCode:  "I'll help you get a server. $6/month. OK?"
+You:      "OK"
+AutoCode:  → Sets up server → Builds website → Deploys
+           → "Done. Open nainai-cake.com on your phone."
 
-Your effort: 1 sentence + 2 answers
-Outsourcing: $5,000-$15,000, weeks
-AutoCode: 25 minutes
+Your effort: 3 yes/no answers
+Result: a live website anyone can visit
 ```
 
 ### Fifth Time
 
 ```
-You:     "Build an online store for a flower shop"
-AutoCode: → Knows your preferences → Starts immediately → "Done."
+You:      "Build a booking site for my hair salon"
+AutoCode:  → Knows your preferences → Builds → Deploys
+           → "Live at salon-booking.com. SSL active."
 ```
 
 ### Twentieth Time
 
 ```
-You:     "New project"
-AutoCode: → Barely asks → You realize you understand what it's doing
+You:      "New project"
+AutoCode:  → Barely asks → Ships it → You realize you have 20 live websites
 ```
 
 *User feedback: "I don't even know who did the work — I thought I was supposed to code, but it was already done."*
 
 ---
 
-## 🧠 39 Professional Skills
+## 🧠 46 Skills
 
 All automatic. You never activate them.
 
@@ -365,16 +369,17 @@ Close today → open tomorrow → remembers everything. Gets better every sessio
 
 ## 🌍 Different from Everything Else
 
-|  | Other tools | **AutoCode** |
+|  | Other AI coding tools | **AutoCode** |
 | --- | --- | --- |
-| **For** | Programmers | **Everyone** |
-| **Requires** | Coding knowledge | **Speech** |
-| **Does** | Helps write code | **Builds products** |
+| **For** | Developers | **Anyone** |
+| **Ends at** | Code written | **Website live** |
+| **Requires** | Terminal/IDE knowledge | **Just say yes or no** |
 | **Tech decisions** | Asks you | **Decides for you** |
-| **Memory** | Mostly none | **Automatic** |
-| **Dev cost** | No savings | **-60%+** |
+| **Deployment** | You figure it out | **Automatic** |
+| **Domain + SSL** | You figure it out | **Guided step by step** |
+| **Memory** | Resets each session | **Persistent** |
+| **Protocol** | None | **I-Lang v3.0** |
 | **Language** | Usually English | **Your language** |
-| **Dependencies** | Various | **Zero** |
 
 ---
 
@@ -418,6 +423,6 @@ AutoCode: free forever (MIT). Cloud computer: $6/month (or free with $300 Vultr 
 
 **I-Lang Research · Eastsoft Inc. · Canada · MIT · Free Forever**
 
-*You say it. AutoCode builds it.*
+*You say it. AutoCode ships it. Powered by [I-Lang v3.0](https://ilang.ai).*
 
 </div>
