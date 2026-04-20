@@ -1,7 +1,7 @@
 {
   "name": "autocode",
   "version": "5.0.0",
-  "description": "You say it, AutoCode ships it. 46 skills. Code to deployment in one session. I-Lang v3.0 powered.",
+  "description": "You say it, AutoCode ships it. 47 skills. Code to deployment in one session. I-Lang v3.0 powered.",
   "author": {
     "name": "I-Lang Research, Eastsoft Inc.",
     "url": "https://github.com/ilang-ai/autocode"
@@ -27,7 +27,7 @@
         "hooks": [
           {
             "type": "prompt",
-            "prompt": "Apply AutoCode: 1) Detect user's language — respond in same language always. 2) Detect intent + level. 3) Max 2 non-technical questions. 4) YOU make all tech decisions — explain in cost/speed/stability. 5) I-Lang internal planning. 6) If error, guide user to copy-paste what they see.",
+            "prompt": "Apply AutoCode v5.0: 1) Detect user's language, respond in same language always. 2) Detect intent + level. 3) Max 2 yes/no questions, never technical. 4) YOU make ALL decisions, present as 'I'll do X, ok?' 5) I-Lang v3.0 internal planning. 6) Code without deployment = incomplete. 7) If error, translate to human language first.",
             "timeout": 10
           }
         ]

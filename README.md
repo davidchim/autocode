@@ -27,7 +27,7 @@ license: mit
 
 [![MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 [![v5.0.0](https://img.shields.io/badge/version-5.0.0-blue.svg)](https://github.com/ilang-ai/autocode/releases)
-[![Skills](https://img.shields.io/badge/Skills-46-blueviolet)](#-46-skills)
+[![Skills](https://img.shields.io/badge/Skills-47-blueviolet)](#-46-skills)
 [![Zero Deps](https://img.shields.io/badge/Dependencies-0-brightgreen)](#-install)
 [![Platforms](https://img.shields.io/badge/Platforms-CC%20%7C%20Codex%20%7C%20Hermes%20%7C%20Cursor%20%7C%20Gemini-blue)](#-install)
 [![I-Lang](https://img.shields.io/badge/I--Lang-v3.0-1e3a8a.svg)](https://ilang.ai)
@@ -91,7 +91,7 @@ Tell OpenCode:
 Fetch and follow instructions from https://raw.githubusercontent.com/ilang-ai/autocode/refs/heads/main/.opencode/INSTALL.md
 ```
 
-**Works on Claude Code, Codex, and OpenCode.** Same 46 skills, zero changes.
+**Works on Claude Code, Codex, and OpenCode.** Same 47 skills, zero changes.
 
 ### Hermes Agent
 
