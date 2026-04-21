@@ -351,15 +351,15 @@ All automatic. You never activate them.
 
 | Skill | What it does |
 |-------|-------------|
-| Compression | I-Lang protocol, 60%+ cost savings |
+| Compression | I-Lang v3.0 protocol, structured internal planning |
 | Memory | Remembers across sessions |
 </details>
 
 ---
 
-## 💰 Save Money
+## 🎯 Precision
 
-Powered by [I-Lang](https://ilang.ai) compression. **Dev costs drop 60%+.** You do nothing different.
+Powered by [I-Lang v3.0](https://ilang.ai). Structured instructions mean AI gets it right the first time. No rework.
 
 ## 🧠 Memory
 
