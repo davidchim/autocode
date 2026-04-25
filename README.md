@@ -48,25 +48,15 @@ license: mit
 
 ## 🚀 Install
 
-**Environment setup (one command):**
-
-```bash
-curl -fsSL https://raw.githubusercontent.com/ilang-ai/autocode/main/setup.sh | bash
-```
-
-**Start Claude Code and install AutoCode:**
-
-```bash
-claude
-```
-
-After login, say:
+**Claude Code (recommended):**
 
 ```
-Install the AutoCode plugin from github.com/ilang-ai/autocode
+/install autocode
 ```
 
-Or use the command:
+That's it. One command. [View on Claude Code Marketplace](https://platform.claude.com/plugins/autocode)
+
+**Or from GitHub:**
 
 ```
 /plugin marketplace add ilang-ai/autocode
