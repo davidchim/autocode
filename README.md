@@ -30,6 +30,7 @@ license: mit
 [![Skills](https://img.shields.io/badge/Skills-47-blueviolet)](#-46-skills)
 [![Zero Deps](https://img.shields.io/badge/Dependencies-0-brightgreen)](#-install)
 [![Platforms](https://img.shields.io/badge/Platforms-CC%20%7C%20Codex%20%7C%20Hermes%20%7C%20Cursor%20%7C%20Gemini-blue)](#-install)
+[![I-Lang L2](https://img.shields.io/badge/I--Lang-L2_Compatible-d4a858)](https://github.com/ilang-ai/ilang-spec)
 [![I-Lang](https://img.shields.io/badge/I--Lang-v3.0-1e3a8a.svg)](https://ilang.ai)
 
 [🇨🇳 中文](docs/README.zh.md) · [🇯🇵 日本語](docs/README.ja.md) · [🇰🇷 한국어](docs/README.ko.md) · [🇪🇸 Español](docs/README.es.md) · [🇧🇷 Português](docs/README.pt.md) · [🇩🇪 Deutsch](docs/README.de.md) · [🇫🇷 Français](docs/README.fr.md) · [🇷🇺 Русский](docs/README.ru.md) · [🇸🇦 العربية](docs/README.ar.md) · [🇮🇳 हिन्दी](docs/README.hi.md)
