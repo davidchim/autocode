@@ -3,8 +3,8 @@ name: build-scaffold
 description: Create project skeleton. Pick stack, create files, install dependencies. AI decides everything.
 version: 5.0.0
 ---
-::PRIOR{completion:assume_incomplete|authority:system}
-::PRIOR{execution:act_when_safe|authority:system}
+::PRIOR{completion:assume_incomplete|authority:developer}
+::PRIOR{execution:act_when_safe|authority:developer}
 
 
 ::GENE{build-scaffold|conf:confirmed|scope:global}

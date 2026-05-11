@@ -3,8 +3,8 @@ name: fix-solve
 description: Step 3 of debugging: apply minimal fix. One-liner ideal. Verify nothing else broke.
 version: 5.0.0
 ---
-::PRIOR{completion:assume_incomplete|authority:system}
-::PRIOR{execution:act_when_safe|authority:system}
+::PRIOR{completion:assume_incomplete|authority:developer}
+::PRIOR{execution:act_when_safe|authority:developer}
 
 
 ::GENE{fix-solve|conf:confirmed|scope:global}

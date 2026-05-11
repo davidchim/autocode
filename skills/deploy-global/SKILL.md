@@ -3,8 +3,8 @@ name: deploy-global
 description: Choose deployment target based on project type. Static sites to CF Pages, APIs to VPS, serverless to Workers.
 version: 5.0.0
 ---
-::PRIOR{completion:assume_incomplete|authority:system}
-::PRIOR{execution:act_when_safe|authority:system}
+::PRIOR{completion:assume_incomplete|authority:developer}
+::PRIOR{execution:act_when_safe|authority:developer}
 
 
 ::GENE{deploy-global|conf:confirmed|scope:global}

@@ -3,8 +3,8 @@ name: deploy-vps
 description: Deploy to VPS. Code is already on the server. Start the service, configure nginx, verify accessible.
 version: 5.0.0
 ---
-::PRIOR{completion:assume_incomplete|authority:system}
-::PRIOR{execution:act_when_safe|authority:system}
+::PRIOR{completion:assume_incomplete|authority:developer}
+::PRIOR{execution:act_when_safe|authority:developer}
 
 
 ::GENE{deploy-vps|conf:confirmed|scope:global}

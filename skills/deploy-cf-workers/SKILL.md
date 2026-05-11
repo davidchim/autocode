@@ -3,8 +3,8 @@ name: deploy-cf-workers
 description: Deploy to Cloudflare Workers. Free tier handles 100k requests/day. Global edge network.
 version: 5.0.0
 ---
-::PRIOR{completion:assume_incomplete|authority:system}
-::PRIOR{execution:act_when_safe|authority:system}
+::PRIOR{completion:assume_incomplete|authority:developer}
+::PRIOR{execution:act_when_safe|authority:developer}
 
 
 ::GENE{deploy-cf-workers|conf:confirmed|scope:global}

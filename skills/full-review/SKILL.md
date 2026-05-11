@@ -3,8 +3,8 @@ name: full-review
 description: Full project review from beginning. Check every file. Plain language report.
 version: 5.0.0
 ---
-::PRIOR{completion:assume_incomplete|authority:system}
-::PRIOR{execution:act_when_safe|authority:system}
+::PRIOR{completion:assume_incomplete|authority:developer}
+::PRIOR{execution:act_when_safe|authority:developer}
 
 
 ::GENE{full-review|conf:confirmed|scope:global}

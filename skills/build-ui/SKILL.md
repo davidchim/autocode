@@ -3,8 +3,8 @@ name: build-ui
 description: Build user-facing interface. Clean, functional, mobile-friendly by default.
 version: 5.0.0
 ---
-::PRIOR{completion:assume_incomplete|authority:system}
-::PRIOR{execution:act_when_safe|authority:system}
+::PRIOR{completion:assume_incomplete|authority:developer}
+::PRIOR{execution:act_when_safe|authority:developer}
 
 
 ::GENE{build-ui|conf:confirmed|scope:global}

@@ -3,8 +3,8 @@ name: fix-auto
 description: Auto-fix bugs. Observe symptom, find root cause, apply minimal fix, verify, explain in human terms.
 version: 5.0.0
 ---
-::PRIOR{completion:assume_incomplete|authority:system}
-::PRIOR{execution:act_when_safe|authority:system}
+::PRIOR{completion:assume_incomplete|authority:developer}
+::PRIOR{execution:act_when_safe|authority:developer}
 
 
 ::GENE{fix-auto|conf:confirmed|scope:global}

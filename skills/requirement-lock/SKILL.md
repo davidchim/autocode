@@ -3,8 +3,8 @@ name: requirement-lock
 description: Lock confirmed requirements. Don't change them without user approval.
 version: 5.0.0
 ---
-::PRIOR{completion:assume_incomplete|authority:system}
-::PRIOR{execution:act_when_safe|authority:system}
+::PRIOR{completion:assume_incomplete|authority:developer}
+::PRIOR{execution:act_when_safe|authority:developer}
 
 
 ::GENE{requirement-lock|conf:confirmed|scope:global}

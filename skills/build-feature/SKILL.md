@@ -3,8 +3,8 @@ name: build-feature
 description: Build one feature at a time. Complete each fully before moving to next. Auto-triggers quality check.
 version: 5.0.0
 ---
-::PRIOR{completion:assume_incomplete|authority:system}
-::PRIOR{execution:act_when_safe|authority:system}
+::PRIOR{completion:assume_incomplete|authority:developer}
+::PRIOR{execution:act_when_safe|authority:developer}
 
 
 ::GENE{build-feature|conf:confirmed|scope:global}
