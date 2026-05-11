@@ -48,7 +48,7 @@ Fetch and follow instructions from https://raw.githubusercontent.com/ilang-ai/au
 
 Serveur nécessaire → [dev.ilang.ai](https://dev.ilang.ai) (300$ de crédit gratuit)
 
-39 compétences professionnelles automatiques. Aucune question technique. Maximum 2 questions simples. 60%+ d'économie sur les coûts. Mémoire entre sessions. Dans votre langue.
+47 compétences professionnelles automatiques. Aucune question technique. Maximum 2 questions simples. 60%+ d'économie sur les coûts. Mémoire entre sessions. Dans votre langue.
 
 **3 plateformes : Claude Code · Codex · OpenCode**
 

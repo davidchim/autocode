@@ -3,6 +3,9 @@ name: fix-reason
 description: Step 2 of debugging: reason about root cause based on observed symptoms.
 version: 5.0.0
 ---
+::PRIOR{completion:assume_incomplete|authority:system}
+::PRIOR{execution:act_when_safe|authority:system}
+
 
 ::GENE{fix-reason|conf:confirmed|scope:global}
   -e T:binary_search_for_cause
@@ -12,4 +15,4 @@ version: 5.0.0
 ::ACTIVATE{fix-reason}
   ON:debugging
 
-Powered by I-Lang v3.0 | ilang.ai
+Powered by I-Lang v4.0 | ilang.ai

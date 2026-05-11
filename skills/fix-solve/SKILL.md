@@ -3,6 +3,9 @@ name: fix-solve
 description: Step 3 of debugging: apply minimal fix. One-liner ideal. Verify nothing else broke.
 version: 5.0.0
 ---
+::PRIOR{completion:assume_incomplete|authority:system}
+::PRIOR{execution:act_when_safe|authority:system}
+
 
 ::GENE{fix-solve|conf:confirmed|scope:global}
   -e T:minimal_fix
@@ -13,4 +16,4 @@ version: 5.0.0
 ::ACTIVATE{fix-solve}
   ON:debugging
 
-Powered by I-Lang v3.0 | ilang.ai
+Powered by I-Lang v4.0 | ilang.ai

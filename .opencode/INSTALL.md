@@ -20,7 +20,7 @@ Before writing any code, read all skill files in ~/.config/opencode/autocode/ski
 ls ~/.config/opencode/autocode/skills/
 ```
 
-46 skills loaded. Describe what you want to build.
+47 skills loaded. Describe what you want to build.
 
 ## Update
 

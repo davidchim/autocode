@@ -5,12 +5,12 @@
 ### 你说一句话。所有编程，全自动。
 
 [![MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
-[![v4.0.2](https://img.shields.io/badge/version-4.0.2-blue.svg)](https://github.com/ilang-ai/autocode/releases)
-[![Skills](https://img.shields.io/badge/专业技能-39项-blueviolet)](#39项专业技能)
+[![v5.0.0](https://img.shields.io/badge/version-5.0.0-blue.svg)](https://github.com/ilang-ai/autocode/releases)
+[![Skills](https://img.shields.io/badge/专业技能-47项-blueviolet)](#47项专业技能)
 [![Zero Deps](https://img.shields.io/badge/依赖-0-brightgreen)](#安装)
 [![Cost](https://img.shields.io/badge/开发费用-节省60%25+-orange)](#省钱)
 [![Memory](https://img.shields.io/badge/记忆-跨天持久-purple)](#记忆)
-[![平台](https://img.shields.io/badge/平台-Claude%20Code%20%7C%20Codex%20%7C%20OpenCode-blue)](#安装)
+[![平台](https://img.shields.io/badge/平台-CC%20%7C%20Codex%20%7C%20Hermes%20%7C%20Cursor%20%7C%20Gemini-blue)](#安装)
 
 [English](../README.md) · [🇯🇵 日本語](README.ja.md) · [🇰🇷 한국어](README.ko.md) · [🇪🇸 Español](README.es.md) · [🇧🇷 Português](README.pt.md) · [🇩🇪 Deutsch](README.de.md) · [🇫🇷 Français](README.fr.md) · [🇷🇺 Русский](README.ru.md) · [🇸🇦 العربية](README.ar.md) · [🇮🇳 हिन्दी](README.hi.md)
 
@@ -73,7 +73,7 @@ Fetch and follow instructions from https://raw.githubusercontent.com/ilang-ai/au
 Fetch and follow instructions from https://raw.githubusercontent.com/ilang-ai/autocode/refs/heads/main/.opencode/INSTALL.md
 ```
 
-**支持 Claude Code、Codex、OpenCode 三大平台。** 39个技能通用，零修改。
+**支持 Claude Code、Codex、OpenCode 三大平台。** 47个技能通用，零修改。
 
 ### Trae（中文用户推荐）
 
@@ -211,7 +211,7 @@ AutoCode： → 几乎不问 → 你发现自己能看懂它在做什么了
 
 ---
 
-## 🧠 39项专业技能
+## 🧠 47项专业技能
 
 全部自动。你不需要知道它们存在。
 

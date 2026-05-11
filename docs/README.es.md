@@ -48,7 +48,7 @@ Fetch and follow instructions from https://raw.githubusercontent.com/ilang-ai/au
 
 Necesitas un servidor → [dev.ilang.ai](https://dev.ilang.ai) ($300 de crédito gratis)
 
-39 habilidades profesionales automáticas. Sin preguntas técnicas. Máximo 2 preguntas simples. Ahorro de costos de desarrollo 60%+. Memoria entre sesiones. En tu idioma.
+47 habilidades profesionales automáticas. Sin preguntas técnicas. Máximo 2 preguntas simples. Ahorro de costos de desarrollo 60%+. Memoria entre sesiones. En tu idioma.
 
 **3 plataformas: Claude Code · Codex · OpenCode**
 

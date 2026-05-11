@@ -27,11 +27,11 @@ license: mit
 
 [![MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 [![v5.0.0](https://img.shields.io/badge/version-5.0.0-blue.svg)](https://github.com/ilang-ai/autocode/releases)
-[![Skills](https://img.shields.io/badge/Skills-47-blueviolet)](#-46-skills)
+[![Skills](https://img.shields.io/badge/Skills-47-blueviolet)](#skills)
 [![Zero Deps](https://img.shields.io/badge/Dependencies-0-brightgreen)](#-install)
 [![Platforms](https://img.shields.io/badge/Platforms-CC%20%7C%20Codex%20%7C%20Hermes%20%7C%20Cursor%20%7C%20Gemini-blue)](#-install)
 [![I-Lang L2](https://img.shields.io/badge/I--Lang-L2_Compatible-d4a858)](https://github.com/ilang-ai/ilang-spec)
-[![I-Lang](https://img.shields.io/badge/I--Lang-v3.0-1e3a8a.svg)](https://ilang.ai)
+[![I-Lang](https://img.shields.io/badge/I--Lang-v4.0-1e3a8a.svg)](https://ilang.ai)
 
 [🇨🇳 中文](docs/README.zh.md) · [🇯🇵 日本語](docs/README.ja.md) · [🇰🇷 한국어](docs/README.ko.md) · [🇪🇸 Español](docs/README.es.md) · [🇧🇷 Português](docs/README.pt.md) · [🇩🇪 Deutsch](docs/README.de.md) · [🇫🇷 Français](docs/README.fr.md) · [🇷🇺 Русский](docs/README.ru.md) · [🇸🇦 العربية](docs/README.ar.md) · [🇮🇳 हिन्दी](docs/README.hi.md)
 
@@ -232,7 +232,7 @@ AutoCode:  → Barely asks → Ships it → You realize you have 20 live website
 
 ---
 
-## 🧠 46 Skills
+## 🧠 47 Skills
 
 All automatic. You never activate them.
 
@@ -342,7 +342,7 @@ All automatic. You never activate them.
 
 | Skill | What it does |
 |-------|-------------|
-| Compression | I-Lang v3.0 protocol, structured internal planning |
+| Compression | I-Lang v4.0 protocol, structured internal planning |
 | Memory | Remembers across sessions |
 </details>
 
@@ -350,7 +350,7 @@ All automatic. You never activate them.
 
 ## 🎯 Precision
 
-Powered by [I-Lang v3.0](https://ilang.ai). Structured instructions mean AI gets it right the first time. No rework.
+Powered by [I-Lang v4.0](https://ilang.ai). Structured instructions mean AI gets it right the first time. No rework.
 
 ## 🧠 Memory
 
@@ -369,7 +369,7 @@ Close today → open tomorrow → remembers everything. Gets better every sessio
 | **Deployment** | You figure it out | **Automatic** |
 | **Domain + SSL** | You figure it out | **Guided step by step** |
 | **Memory** | Resets each session | **Persistent** |
-| **Protocol** | None | **I-Lang v3.0** |
+| **Protocol** | None | **I-Lang v4.0** |
 | **Language** | Usually English | **Your language** |
 
 ---
@@ -414,6 +414,6 @@ AutoCode: free forever (MIT). Cloud computer: $6/month (or free with $300 Vultr 
 
 **I-Lang Research · Eastsoft Inc. · Canada · MIT · Free Forever**
 
-*You say it. AutoCode ships it. Powered by [I-Lang v3.0](https://ilang.ai).*
+*You say it. AutoCode ships it. Powered by [I-Lang v4.0](https://ilang.ai).*
 
 </div>

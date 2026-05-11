@@ -3,6 +3,9 @@ name: fix-observe
 description: Step 1 of debugging: observe the symptom carefully before jumping to conclusions.
 version: 5.0.0
 ---
+::PRIOR{completion:assume_incomplete|authority:system}
+::PRIOR{execution:act_when_safe|authority:system}
+
 
 ::GENE{fix-observe|conf:confirmed|scope:global}
   -e T:read_error_first
@@ -13,4 +16,4 @@ version: 5.0.0
 ::ACTIVATE{fix-observe}
   ON:debugging
 
-Powered by I-Lang v3.0 | ilang.ai
+Powered by I-Lang v4.0 | ilang.ai
