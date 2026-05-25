@@ -387,7 +387,7 @@ AutoCode永久免费。云电脑$6/月（新用户$300免费额度）。加上An
 
 **用 Trae？** 👉 [ZeroCode — 中文版，40个技能](https://github.com/ilang-ai/trae)
 
-**I-Lang Research · Eastsoft Inc. · Canada · MIT · 永久免费**
+**I-Lang Research · iLang Inc. · Canada · MIT · 永久免费**
 
 *你说一句话。AutoCode 做完所有事。*
 

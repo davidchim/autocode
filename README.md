@@ -412,7 +412,7 @@ AutoCode: free forever (MIT). Cloud computer: $6/month (or free with $300 Vultr 
 
 [ilang.ai](https://ilang.ai) · [ilang.cn](https://ilang.cn) · [Hugging Face](https://huggingface.co/i-Lang/AutoCode) · [@adsorgcn](https://x.com/adsorgcn)
 
-**I-Lang Research · Eastsoft Inc. · Canada · MIT · Free Forever**
+**I-Lang Research · iLang Inc. · Canada · MIT · Free Forever**
 
 *You say it. AutoCode ships it. Powered by [I-Lang v4.0](https://ilang.ai).*
 
