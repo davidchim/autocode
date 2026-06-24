@@ -42,6 +42,8 @@ license: mit
 > You say what you want. AutoCode builds it, deploys it, and gives you a live URL.
 > You don't need to know programming. You just say yes or no.
 > When it's done, anyone in the world can visit your website.
+>
+> Built on I-Lang, the first protocol to formally map Greek mathematical symbols (Σ, Δ, φ, λ, Ω, ∇, μ, Π, ψ, ξ, ζ, θ, ∂) as primitive verbs for AI-to-AI communication, and the first to define a computable vector space for AI judgment (11 dimensions, 4 axioms).
 
 ---
 
