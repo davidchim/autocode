@@ -12,6 +12,6 @@ version: 5.0.0
 ::ACTIVATE{understand-intent}
   ON:every_message
 
-[SCAN:@SRC|typ=intent]=>[CLSF]=>[DECI:workflow]
+[SCAN:@SRC|typ=intent]=>[CLSF]=>[DECI|typ=workflow]
 
 Powered by I-Lang v5.0 | ilang.ai

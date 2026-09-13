@@ -27,11 +27,11 @@ license: mit
 
 [![MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 [![v5.1.0](https://img.shields.io/badge/version-5.1.0-blue.svg)](https://github.com/ilang-ai/autocode/releases)
-[![Skills](https://img.shields.io/badge/Skills-47-blueviolet)](#skills)
+[![Skills](https://img.shields.io/badge/Skills-48-blueviolet)](#skills)
 [![Zero Deps](https://img.shields.io/badge/Dependencies-0-brightgreen)](#-install)
 [![Platforms](https://img.shields.io/badge/Platforms-CC%20%7C%20Codex%20%7C%20Hermes%20%7C%20Cursor%20%7C%20Gemini-blue)](#-install)
-[![I-Lang L2](https://img.shields.io/badge/I--Lang-L2_Compatible-d4a858)](https://github.com/ilang-ai/ilang-spec)
-[![I-Lang](https://img.shields.io/badge/I--Lang-v4.0-1e3a8a.svg)](https://ilang.ai)
+[![I-Lang Spec](https://img.shields.io/badge/I--Lang-Spec-d4a858)](https://github.com/ilang-ai/ilang-spec)
+[![I-Lang](https://img.shields.io/badge/I--Lang-v5.0-1e3a8a.svg)](https://ilang.ai)
 
 [🇨🇳 中文](docs/README.zh.md) · [🇯🇵 日本語](docs/README.ja.md) · [🇰🇷 한국어](docs/README.ko.md) · [🇪🇸 Español](docs/README.es.md) · [🇧🇷 Português](docs/README.pt.md) · [🇩🇪 Deutsch](docs/README.de.md) · [🇫🇷 Français](docs/README.fr.md) · [🇷🇺 Русский](docs/README.ru.md) · [🇸🇦 العربية](docs/README.ar.md) · [🇮🇳 हिन्दी](docs/README.hi.md)
 
@@ -412,7 +412,7 @@ AutoCode: free forever (MIT). Cloud computer: $6/month (or free with $300 Vultr 
 
 <div align="center">
 
-[ilang.ai](https://ilang.ai) · [ilang.cn](https://ilang.cn) · [Hugging Face](https://huggingface.co/i-Lang/AutoCode) · [@adsorgcn](https://x.com/adsorgcn)
+[ilang.ai](https://ilang.ai) · [ilang.cn](https://ilang.cn) · [Hugging Face](https://huggingface.co/datasets/i-Lang/AutoCode) · [@adsorgcn](https://x.com/adsorgcn)
 
 **I-Lang Research · iLang Inc. · Canada · MIT · Free Forever**
 

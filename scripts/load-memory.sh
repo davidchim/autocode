@@ -1,8 +1,8 @@
 #!/bin/bash
-# AutoCode v5.0: I-Lang v3.0 + memory
+# AutoCode v5.0: I-Lang v5.0 + memory
 
-# I-Lang v3.0 Protocol (one line, not 31 verbs)
-echo "## [AutoCode] I-Lang v3.0 Active"
+# I-Lang v5.0 Protocol (one line, not 31 verbs)
+echo "## [AutoCode] I-Lang v5.0 Active"
 echo "88 verbs. 13 Greek aliases. Spec: ilang.ai"
 echo ""
 
@@ -25,7 +25,7 @@ else
   cat << 'WELCOME'
 ## [AutoCode] Welcome
 
-AutoCode v5.0 active. 43 skills. I-Lang v3.0 protocol.
+AutoCode v5.0 active. 48 skills. I-Lang v5.0 protocol.
 
 Tell the user in THEIR language:
 1. "I'm AutoCode. Tell me what you want to build. I handle everything — code, deploy, domain. You just say yes or no."

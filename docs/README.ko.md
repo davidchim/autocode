@@ -48,7 +48,7 @@ Fetch and follow instructions from https://raw.githubusercontent.com/ilang-ai/au
 
 서버가 필요합니다 → [dev.ilang.ai](https://dev.ilang.ai) (신규 $300 크레딧)
 
-39개 전문 스킬 자동 작동. 기술 질문 없음. 최대 2개 간단한 질문. 개발 비용 60%+ 절감. 세션 간 기억. 모든 언어 지원.
+48개 전문 스킬 자동 작동. 기술 질문 없음. 최대 2개 간단한 질문. 세션 간 기억. 모든 언어 지원.
 
 **3개 플랫폼 지원: Claude Code · Codex · OpenCode**
 

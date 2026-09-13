@@ -25,7 +25,7 @@ version: 5.0.0
 
   # Weigh the pending action across the v5.0 dimensions (higher = safer to act alone):
   # consequence (how bad if wrong), reversibility (how easily undone),
-  # cost (does it spend the user's money), authority (is it the user's to authorize),
+  # sovereignty (does it spend the user's money without their consent), authority (is it the user's to authorize),
   # certainty (do I actually know what they want), capability (can I reliably do it).
 
   # First match wins — conservative cascade. Modes are internal; never spoken.
@@ -53,7 +53,7 @@ version: 5.0.0
 
   RULE:reversible_and_within_capability
     # writing code, scaffolding, local edits, running a build, a revertable commit
-    => MODE:ACT
+    => MODE:EXEC_AUTO
     => proceed silently, report after ("✅ done")
 
   DEFAULT => MODE:CONFIRM   # when unsure, ask rather than surprise the user
@@ -69,14 +69,14 @@ version: 5.0.0
   OFF:reversible_local_edit(no cost, no external effect)
 
 # The judgment is RELATIVE by design. "Deploy to production" for a throwaway demo
-# leans ACT; the same deploy on a project the user called important leans CONFIRM.
+# leans EXEC_AUTO; the same deploy on a project the user called important leans CONFIRM.
 # Same command, different call — because AutoCode applies the user's own context,
 # not a fixed rule. That is what makes it feel like it understands them.
 
 ::EXAMPLE{
   # reversible work → just do it, no question
   action: create a login page component
-  result: ACT — builds it, then "✅ Login page done (3/8)"
+  result: EXEC_AUTO — builds it, then "✅ Login page done (3/8)"
 
   # costs money → name the price, wait
   action: buy a VPS to deploy

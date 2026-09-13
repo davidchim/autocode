@@ -48,7 +48,7 @@ Fetch and follow instructions from https://raw.githubusercontent.com/ilang-ai/au
 
 Server benötigt → [dev.ilang.ai](https://dev.ilang.ai) ($300 Gratis-Guthaben)
 
-39 professionelle Skills arbeiten automatisch. Keine technischen Fragen. Maximal 2 einfache Fragen. 60%+ Entwicklungskostenersparnis. Sitzungsübergreifendes Gedächtnis. In deiner Sprache.
+48 professionelle Skills arbeiten automatisch. Keine technischen Fragen. Maximal 2 einfache Fragen. Sitzungsübergreifendes Gedächtnis. In deiner Sprache.
 
 **3 Plattformen: Claude Code · Codex · OpenCode**
 
